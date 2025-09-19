@@ -1,0 +1,605 @@
+# Page snapshot
+
+```yaml
+- img "scan"
+- button "Connect to khub scanner"
+- link "Logo":
+  - /url: /
+  - img "Logo"
+- img
+- menu:
+  - menuitem "home Dashboard":
+    - img "home"
+    - link "Dashboard":
+      - /url: /dashboard
+  - menuitem "shop Product Catalog":
+    - button "shop Product Catalog":
+      - img "shop"
+      - text: Product Catalog
+  - menuitem "reconciliation Inventory":
+    - button "reconciliation Inventory":
+      - img "reconciliation"
+      - text: Inventory
+  - menuitem "shopping Sale":
+    - button "shopping Sale":
+      - img "shopping"
+      - text: Sale
+  - menuitem "rocket Marketing":
+    - button "rocket Marketing":
+      - img "rocket"
+      - text: Marketing
+  - menuitem "tablet Apps":
+    - img "tablet"
+    - link "Apps":
+      - /url: /apps
+  - menuitem "bar-chart Reporting":
+    - button "bar-chart Reporting":
+      - img "bar-chart"
+      - text: Reporting
+  - menuitem "highlight Themes":
+    - button "highlight Themes":
+      - img "highlight"
+      - text: Themes
+  - menuitem "audit Manage Custom Pages":
+    - button "audit Manage Custom Pages":
+      - img "audit"
+      - text: Manage Custom Pages
+  - menuitem "question Queries":
+    - img "question"
+    - link "Queries":
+      - /url: /queries/list
+  - menuitem "team Users":
+    - button "team Users":
+      - img "team"
+      - text: Users
+- list:
+  - listitem:
+    - link:
+      - /url: /dashboard
+      - img
+  - listitem: ">"
+  - listitem:
+    - link "Dashboard":
+      - /url: /dashboard
+- heading "Dashboard" [level=1]
+- button "Quick Create":
+  - img "plus"
+- img "user-switch"
+- img
+- superscript:
+  - paragraph: "0"
+  - paragraph: "1"
+  - paragraph: "2"
+  - paragraph: "3"
+  - paragraph: "4"
+  - paragraph: "5"
+  - paragraph: "6"
+  - paragraph: "7"
+  - paragraph: "8"
+  - paragraph: "9"
+  - paragraph: "0"
+  - paragraph: "1"
+  - paragraph: "2"
+  - paragraph: "3"
+  - paragraph: "4"
+  - paragraph: "5"
+  - paragraph: "6"
+  - paragraph: "7"
+  - paragraph: "8"
+  - paragraph: "9"
+  - paragraph: "0"
+  - paragraph: "1"
+  - paragraph: "2"
+  - paragraph: "3"
+  - paragraph: "4"
+  - paragraph: "5"
+  - paragraph: "6"
+  - paragraph: "7"
+  - paragraph: "8"
+  - paragraph: "9"
+  - paragraph: "0"
+  - paragraph: "1"
+  - paragraph: "2"
+  - paragraph: "3"
+  - paragraph: "4"
+  - paragraph: "5"
+  - paragraph: "6"
+  - paragraph: "7"
+  - paragraph: "8"
+  - paragraph: "9"
+  - paragraph: "0"
+  - paragraph: "1"
+  - paragraph: "2"
+  - paragraph: "3"
+  - paragraph: "4"
+  - paragraph: "5"
+  - paragraph: "6"
+  - paragraph: "7"
+  - paragraph: "8"
+  - paragraph: "9"
+  - paragraph: "0"
+  - paragraph: "1"
+  - paragraph: "2"
+  - paragraph: "3"
+  - paragraph: "4"
+  - paragraph: "5"
+  - paragraph: "6"
+  - paragraph: "7"
+  - paragraph: "8"
+  - paragraph: "9"
+- img "Logo"
+- text: natalia natali2033dummy1@hotmail.es
+- heading [level=3]
+- strong: Select Date Range
+- textbox "Start date": 09-12-2025
+- img "swap-right"
+- textbox "End date": 09-12-2025
+- img "calendar"
+- link "Total Sale/Revenue $247.72 K":
+  - /url: /reporting/purchasing-inventory/sales/sales-summary
+  - img
+  - paragraph: Total Sale/Revenue
+  - text: $247.72 K
+- link "Paid Amount $220.18 K":
+  - /url: /reporting/financial-reporting/payment-received-report
+  - img
+  - paragraph: Paid Amount
+  - text: $220.18 K
+- link "Payable Amount $178.06 K":
+  - /url: /reporting/financial-reporting/account-payable-report
+  - img
+  - paragraph: Payable Amount
+  - text: $178.06 K
+- link "Receivable Amount $41.34 K":
+  - /url: /reporting/financial-reporting/account-receivable-report
+  - img
+  - paragraph: Receivable Amount
+  - text: $41.34 K
+- link "Delivery Orders 0":
+  - /url: /sale/fulfillment
+  - img
+  - paragraph: Delivery Orders
+  - text: "0"
+- link "Pickup Orders 19":
+  - /url: /sale/fulfillment
+  - img
+  - paragraph: Pickup Orders
+  - text: "19"
+- table:
+  - rowgroup:
+    - row "Sale Order(s) Qty Amount":
+      - cell "Sale Order(s)"
+      - cell "Qty"
+      - cell "Amount"
+  - rowgroup:
+    - row "Pending 6 $2.93 K":
+      - cell "Pending"
+      - cell "6"
+      - cell "$2.93 K"
+    - row "Picker Assigned 0 $0.00":
+      - cell "Picker Assigned"
+      - cell "0"
+      - cell "$0.00"
+    - row "Picked in progress 0 $0.00":
+      - cell "Picked in progress"
+      - cell "0"
+      - cell "$0.00"
+    - row "Picking Parked 0 $0.00":
+      - cell "Picking Parked"
+      - cell "0"
+      - cell "$0.00"
+    - row "Picked 0 $0.00":
+      - cell "Picked"
+      - cell "0"
+      - cell "$0.00"
+    - row "Packing in progress 0 $0.00":
+      - cell "Packing in progress"
+      - cell "0"
+      - cell "$0.00"
+    - row "Packed 0 $0.00":
+      - cell "Packed"
+      - cell "0"
+      - cell "$0.00"
+    - row "Partially Executed 0 $0.00":
+      - cell "Partially Executed"
+      - cell "0"
+      - cell "$0.00"
+    - row "Executed 4 $169.75 K":
+      - cell "Executed"
+      - cell "4"
+      - cell "$169.75 K"
+    - row "Completed 6 $75.04 K":
+      - cell "Completed"
+      - cell "6"
+      - cell "$75.04 K"
+    - row "Partially Returned 0 $0.00":
+      - cell "Partially Returned"
+      - cell "0"
+      - cell "$0.00"
+    - row "Parked 0 $0.00":
+      - cell "Parked"
+      - cell "0"
+      - cell "$0.00"
+    - row "Discarded 0 $0.00":
+      - cell "Discarded"
+      - cell "0"
+      - cell "$0.00"
+    - row "Void 4 $622.19":
+      - cell "Void"
+      - cell "4"
+      - cell "$622.19"
+  - rowgroup:
+    - row "20 $248.34 K":
+      - cell:
+        - separator
+      - cell "20":
+        - separator
+        - text: "20"
+      - cell "$248.34 K":
+        - separator
+        - text: $248.34 K
+- table:
+  - rowgroup:
+    - row "Purchase Order(s) Qty Amount":
+      - cell "Purchase Order(s)"
+      - cell "Qty"
+      - cell "Amount"
+  - rowgroup:
+    - row "Returned 0 $0.00":
+      - cell "Returned"
+      - cell "0"
+      - cell "$0.00"
+    - row "In Progress 0 $0.00":
+      - cell "In Progress"
+      - cell "0"
+      - cell "$0.00"
+    - row "Canceled 0 $0.00":
+      - cell "Canceled"
+      - cell "0"
+      - cell "$0.00"
+    - row "Partially Received 0 $0.00":
+      - cell "Partially Received"
+      - cell "0"
+      - cell "$0.00"
+    - row "Received 1 $550.00":
+      - cell "Received"
+      - cell "1"
+      - cell "$550.00"
+    - row "Completed 0 $0.00":
+      - cell "Completed"
+      - cell "0"
+      - cell "$0.00"
+    - row "Partially Returned 0 $0.00":
+      - cell "Partially Returned"
+      - cell "0"
+      - cell "$0.00"
+    - row "Parked 0 $0.00":
+      - cell "Parked"
+      - cell "0"
+      - cell "$0.00"
+  - rowgroup:
+    - row "1 $550.00":
+      - cell:
+        - separator
+      - cell "1":
+        - separator
+        - text: "1"
+      - cell "$550.00":
+        - separator
+        - text: $550.00
+- table:
+  - rowgroup:
+    - row "Return Order(s) Qty Amount":
+      - cell "Return Order(s)"
+      - cell "Qty"
+      - cell "Amount"
+  - rowgroup:
+    - row "Returned 0 $0.00":
+      - cell "Returned"
+      - cell "0"
+      - cell "$0.00"
+  - rowgroup:
+    - row "1 $-10.00 K":
+      - cell:
+        - separator
+      - cell "1":
+        - separator
+        - text: "1"
+      - cell "$-10.00 K":
+        - separator
+        - text: $-10.00 K
+- heading "Notifications 17036 Notifications" [level=3]
+- button "See All"
+- table:
+  - rowgroup:
+    - row "Date | Day Time Message":
+      - columnheader "Date | Day"
+      - columnheader "Time"
+      - columnheader "Message"
+  - rowgroup:
+    - row "09/12/2025 | Fri 12:33 PM Product SANTOOR stock alert in channel Primary":
+      - cell "09/12/2025 | Fri"
+      - cell "12:33 PM"
+      - cell "Product SANTOOR stock alert in channel Primary"
+    - row "09/12/2025 | Fri 12:33 PM Product SANTOOR-FRESH SKIN stock alert in channel Primary":
+      - cell "09/12/2025 | Fri"
+      - cell "12:33 PM"
+      - cell "Product SANTOOR-FRESH SKIN stock alert in channel Primary"
+    - row "09/12/2025 | Fri 12:33 PM Product SANTOOR-TURUMATIC stock alert in channel Primary":
+      - cell "09/12/2025 | Fri"
+      - cell "12:33 PM"
+      - cell "Product SANTOOR-TURUMATIC stock alert in channel Primary"
+    - row "09/12/2025 | Fri 12:33 PM Sale Order no = SO-250912-23024 is updated successfully by staff member narias":
+      - cell "09/12/2025 | Fri"
+      - cell "12:33 PM"
+      - cell "Sale Order no = SO-250912-23024 is updated successfully by staff member narias"
+    - row "09/12/2025 | Fri 12:33 PM Sale Order no = None is created successfully by staff member narias":
+      - cell "09/12/2025 | Fri"
+      - cell "12:33 PM"
+      - cell "Sale Order no = None is created successfully by staff member narias"
+    - row "09/12/2025 | Fri 12:31 PM Product SANTOOR stock alert in channel Primary":
+      - cell "09/12/2025 | Fri"
+      - cell "12:31 PM"
+      - cell "Product SANTOOR stock alert in channel Primary"
+    - row "09/12/2025 | Fri 12:31 PM Product SANTOOR-FRESH SKIN stock alert in channel Primary":
+      - cell "09/12/2025 | Fri"
+      - cell "12:31 PM"
+      - cell "Product SANTOOR-FRESH SKIN stock alert in channel Primary"
+- link "Total Extended Stock $6,985,337.29":
+  - /url: /reporting/inventory-report/inventory-valuation-report
+  - img
+  - img
+  - paragraph: Total Extended Stock
+  - text: $6,985,337.29
+- link "Total Products 6,644":
+  - /url: /catalog/products
+  - img
+  - paragraph: Total Products
+  - text: 6,644
+- link "Total Categories 124":
+  - /url: /catalog/categories
+  - img
+  - paragraph: Total Categories
+  - text: "124"
+- link "Total Brands 319":
+  - /url: /catalog/brands
+  - img
+  - paragraph: Total Brands
+  - text: "319"
+- link "Stockholm-icons / General / User Total Customers 1,934":
+  - /url: /sale/customers
+  - img "Stockholm-icons / General / User"
+  - paragraph: Total Customers
+  - text: 1,934
+- link "Total Suppliers 232":
+  - /url: /inventory/suppliers
+  - img
+  - paragraph: Total Suppliers
+  - text: "232"
+- heading "Stock Alerts" [level=3]
+- img
+- textbox "Search"
+- text: Search by product name, SKU/UPC
+- table:
+  - rowgroup:
+    - row "Product Name SKU/UPC Channel Name Available QTY Total Qty Min Qty Max Qty":
+      - cell "Product Name"
+      - cell "SKU/UPC"
+      - cell "Channel Name"
+      - cell "Available QTY"
+      - cell "Total Qty"
+      - cell "Min Qty"
+      - cell "Max Qty"
+  - rowgroup:
+    - row "Baby Ruth Bar 24 Ct 12702 / 099900647682 Primary 478 480 12 25":
+      - cell "Baby Ruth Bar 24 Ct"
+      - cell "12702 / 099900647682"
+      - cell "Primary"
+      - cell "478"
+      - cell "480"
+      - cell "12"
+      - cell "25"
+    - row "SMOKE ODOR FOREST WALKS 13OZ JAR 15068 / 734366015414 Primary 10 13 24 0":
+      - cell "SMOKE ODOR FOREST WALKS 13OZ JAR"
+      - cell "15068 / 734366015414"
+      - cell "Primary"
+      - cell "10"
+      - cell "13"
+      - cell "24"
+      - cell "0"
+    - row "STP GAS TREATMENT 5.25 OZ 2PK 6CT 11498 / 071153192430 Primary 1 1 10 0":
+      - cell "STP GAS TREATMENT 5.25 OZ 2PK 6CT"
+      - cell "11498 / 071153192430"
+      - cell "Primary"
+      - cell "1"
+      - cell "1"
+      - cell "10"
+      - cell "0"
+    - row "SMOKE ODOR MIAMI SUNRISE 13OZ JAR 13495 / 734366037645 Primary 0 3 24 0":
+      - cell "SMOKE ODOR MIAMI SUNRISE 13OZ JAR"
+      - cell "13495 / 734366037645"
+      - cell "Primary"
+      - cell "0"
+      - cell "3"
+      - cell "24"
+      - cell "0"
+    - row "Bug Juice Green Goop 10Oz 24Ct 19084 / 0 Primary 6 6 8 0":
+      - cell "Bug Juice Green Goop 10Oz 24Ct"
+      - cell "19084 / 0"
+      - cell "Primary"
+      - cell "6"
+      - cell "6"
+      - cell "8"
+      - cell "0"
+    - row "CARMEX BLISTER PK 12CT 15175 / 0 Primary 0 0 12 0":
+      - cell "CARMEX BLISTER PK 12CT"
+      - cell "15175 / 0"
+      - cell "Primary"
+      - cell "0"
+      - cell "0"
+      - cell "12"
+      - cell "0"
+    - row "Monster Ultra Paradise 16Oz 24Ct 13293 / 070847033097 Primary 0 14 6 0":
+      - cell "Monster Ultra Paradise 16Oz 24Ct"
+      - cell "13293 / 070847033097"
+      - cell "Primary"
+      - cell "0"
+      - cell "14"
+      - cell "6"
+      - cell "0"
+    - row "SMOKE ODOR APPLE PUMPKIN 13OZ JAR 13757 / 734366037829 Primary 0 0 24 0":
+      - cell "SMOKE ODOR APPLE PUMPKIN 13OZ JAR"
+      - cell "13757 / 734366037829"
+      - cell "Primary"
+      - cell "0"
+      - cell "0"
+      - cell "24"
+      - cell "0"
+    - row "SMOKE ODOR PUMPKIN SPICE 13OZ JAR 15067 / 734366010693 Primary 0 0 24 0":
+      - cell "SMOKE ODOR PUMPKIN SPICE 13OZ JAR"
+      - cell "15067 / 734366010693"
+      - cell "Primary"
+      - cell "0"
+      - cell "0"
+      - cell "24"
+      - cell "0"
+    - row "Body Armor Blackout Berry 28Oz 12Ct 19872 / 858176002379 Primary 0 0 4 0":
+      - cell "Body Armor Blackout Berry 28Oz 12Ct"
+      - cell "19872 / 858176002379"
+      - cell "Primary"
+      - cell "0"
+      - cell "0"
+      - cell "4"
+      - cell "0"
+    - row "Reign Reignbow Sherbet Cans 16Oz 12Ct 19028 / 0 Primary 3 3 4 0":
+      - cell "Reign Reignbow Sherbet Cans 16Oz 12Ct"
+      - cell "19028 / 0"
+      - cell "Primary"
+      - cell "3"
+      - cell "3"
+      - cell "4"
+      - cell "0"
+    - row "Snapple Lemon Tea 24Ct 16Oz 19834 / 076183003152 Primary 1 1 6 0":
+      - cell "Snapple Lemon Tea 24Ct 16Oz"
+      - cell "19834 / 076183003152"
+      - cell "Primary"
+      - cell "1"
+      - cell "1"
+      - cell "6"
+      - cell "0"
+    - row "CHEYENNE CGR VANILLA 18054 / 874411000726 Primary 18 18 30 0":
+      - cell "CHEYENNE CGR VANILLA"
+      - cell "18054 / 874411000726"
+      - cell "Primary"
+      - cell "18"
+      - cell "18"
+      - cell "30"
+      - cell "0"
+    - row "SMOKE ODOR SPR ROCKABILITY 7OZ 13531 / 0 Primary 0 0 24 0":
+      - cell "SMOKE ODOR SPR ROCKABILITY 7OZ"
+      - cell "13531 / 0"
+      - cell "Primary"
+      - cell "0"
+      - cell "0"
+      - cell "24"
+      - cell "0"
+    - row "SONOMA RED KING BOX 20345 / 090600301768 Primary 12 15 25 0":
+      - cell "SONOMA RED KING BOX"
+      - cell "20345 / 090600301768"
+      - cell "Primary"
+      - cell "12"
+      - cell "15"
+      - cell "25"
+      - cell "0"
+    - row "Tropicana Cranberry Cocktail Juice 15.2/12Ct 19080 / 10048500008642 Primary 0 0 6 0":
+      - cell "Tropicana Cranberry Cocktail Juice 15.2/12Ct"
+      - cell "19080 / 10048500008642"
+      - cell "Primary"
+      - cell "0"
+      - cell "0"
+      - cell "6"
+      - cell "0"
+    - row "Reign Storm Valencia Orange 12Oz 12Ct 19029 / 815154025454 Primary 1 1 4 0":
+      - cell "Reign Storm Valencia Orange 12Oz 12Ct"
+      - cell "19029 / 815154025454"
+      - cell "Primary"
+      - cell "1"
+      - cell "1"
+      - cell "4"
+      - cell "0"
+    - row "Vitamin Water Dragon Fruit 20Oz 12Ct 19040 / 0 Primary 0 0 6 0":
+      - cell "Vitamin Water Dragon Fruit 20Oz 12Ct"
+      - cell "19040 / 0"
+      - cell "Primary"
+      - cell "0"
+      - cell "0"
+      - cell "6"
+      - cell "0"
+    - row "SMOKE ODOR SPR KIWI TWISTED STRAWBERRY 7OZ 13517 / 734366044254 Primary 20 23 24 0":
+      - cell "SMOKE ODOR SPR KIWI TWISTED STRAWBERRY 7OZ"
+      - cell "13517 / 734366044254"
+      - cell "Primary"
+      - cell "20"
+      - cell "23"
+      - cell "24"
+      - cell "0"
+    - row "Vitamin Water Zero Rise Orange 20Oz 12Ct 19686 / 786162002983 Primary 1 1 6 0":
+      - cell "Vitamin Water Zero Rise Orange 20Oz 12Ct"
+      - cell "19686 / 786162002983"
+      - cell "Primary"
+      - cell "1"
+      - cell "1"
+      - cell "6"
+      - cell "0"
+- text:   1 2 3 4 5 ...  
+- combobox:
+  - option "20" [selected]
+  - option "50"
+  - option "100"
+- tablist:
+  - listitem:
+    - tab "Audit Logs" [selected]
+  - listitem:
+    - tab "Notifications"
+  - listitem:
+    - tab "Settings"
+- link "":
+  - /url: "#"
+- tabpanel:
+  - heading "System Messages" [level=5]
+  - link "Top Authors":
+    - /url: "#"
+  - text: Most Successful Fellas +82$
+  - link "Popular Authors":
+    - /url: "#"
+  - text: Most Successful Fellas +280$
+  - link "New Users":
+    - /url: "#"
+  - text: Most Successful Fellas +4500$
+  - link "Active Customers":
+    - /url: "#"
+  - text: Most Successful Fellas +4500$
+  - link "Bestseller Theme":
+    - /url: "#"
+  - text: Most Successful Fellas +4500$
+  - heading "Notifications" [level=5]
+  - img "Stockholm-icons / Home / Library"
+  - link "Another purpose persuade":
+    - /url: "#"
+  - text: Due in 2 Days +28%
+  - img "Stockholm-icons / Communication / Write"
+  - link "Would be to people":
+    - /url: "#"
+  - text: Due in 2 Days +50%
+  - img "Stockholm-icons / Communication / Group-chat"
+  - link "Purpose would be to persuade":
+    - /url: "#"
+  - text: Due in 2 Days -27%
+  - img "Stockholm-icons / General / Attachment2"
+  - link "The best product":
+    - /url: "#"
+  - text: Due in 2 Days +8%
+- img
+- button "Open Intercom Messenger":
+  - img
+```

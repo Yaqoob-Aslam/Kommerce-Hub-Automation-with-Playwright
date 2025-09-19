@@ -1,0 +1,65 @@
+# Page snapshot
+
+```yaml
+- dialog:
+  - text: Add Category Category Name*
+  - textbox "Enter Category Name": Maxi Skirt-Spring-2025-1756297778193
+  - text: Enter Msa Code 003211 - Moist Snuff
+  - combobox
+  - checkbox "Is MSA" [checked]
+  - text: Is MSA
+  - checkbox "Show on ECOM" [checked]
+  - text: Show on ECOM Parent Category
+  - combobox [expanded]:
+    - listbox:
+      - option "169"
+      - option "168"
+      - option "167"
+  - text: Please Select
+  - button "Click to upload. Please Upload image":
+    - heading "Click to upload." [level=3]
+    - text: Please Upload image
+  - text: Description
+  - application "Rich Text Editor":
+    - toolbar "Editor toolbar":
+      - button "Paragraph":
+        - text: Paragraph
+        - img
+      - button "Bold":
+        - img
+      - button "Italic":
+        - img
+      - button "Link":
+        - img
+      - button "Bulleted List":
+        - img
+      - button "Numbered List":
+        - img
+      - button "Increase indent" [disabled]:
+        - img
+      - button "Decrease indent" [disabled]:
+        - img
+      - button "Block quote":
+        - img
+      - button "Insert table":
+        - img
+        - img
+      - button "Undo" [disabled]:
+        - img
+      - button "Redo" [disabled]:
+        - img
+    - textbox "Rich Text Editor, main":
+      - paragraph
+  - paragraph: 2000 word(s) out of 2000 remaining
+  - separator: SEO Section
+  - text: Slug
+  - img
+  - textbox "Enter Category Slug"
+  - text: Meta Title
+  - textbox "Enter Meta Title"
+  - text: Meta Description
+  - textbox "Enter Meta Description"
+  - button "Cancel"
+  - button "Add Category"
+- text: Tunic-Winter-2025-1756243825530 Blazer-Summer-2025-1756243805461 Capris-Summer-2025-1756243689870 A-line Skirt-Spring-2025-1756243669906 Cocktail Dress-Autumn-2025-1756243472991 (Ankle Boots-Autumn-2025-1756241168430) Skinny Jeans-Autumn-2025-1756242787869 (Ankle Boots-Autumn-2025-1756241168430) Mom Jeans-Winter-2025-1756242405538 (Ankle Boots-Autumn-2025-1756241168430) Raincoat-Spring-2025-1756242284949 (Ankle Boots-Autumn-2025-1756241168430)
+```

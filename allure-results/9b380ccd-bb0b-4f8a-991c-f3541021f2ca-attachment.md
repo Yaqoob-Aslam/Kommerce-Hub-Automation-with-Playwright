@@ -1,0 +1,64 @@
+# Page snapshot
+
+```yaml
+- dialog:
+  - text: Add Category Category Name*
+  - textbox "Enter Category Name": Sundress-Winter-2025-1757584718967
+  - text: Enter Msa Code 003211 - Moist Snuff
+  - combobox
+  - checkbox "Is MSA" [checked]
+  - text: Is MSA
+  - checkbox "Show on ECOM" [checked]
+  - text: Show on ECOM Parent Category
+  - combobox [expanded]:
+    - listbox:
+      - option "Please Select" [selected]
+      - option "200"
+  - text: Please Select
+  - button "Click to upload. Please Upload image":
+    - heading "Click to upload." [level=3]
+    - text: Please Upload image
+  - text: Description
+  - application "Rich Text Editor":
+    - toolbar "Editor toolbar":
+      - button "Paragraph":
+        - text: Paragraph
+        - img
+      - button "Bold":
+        - img
+      - button "Italic":
+        - img
+      - button "Link":
+        - img
+      - button "Bulleted List":
+        - img
+      - button "Numbered List":
+        - img
+      - button "Increase indent" [disabled]:
+        - img
+      - button "Decrease indent" [disabled]:
+        - img
+      - button "Block quote":
+        - img
+      - button "Insert table":
+        - img
+        - img
+      - button "Undo" [disabled]:
+        - img
+      - button "Redo" [disabled]:
+        - img
+    - textbox "Rich Text Editor, main":
+      - paragraph
+  - paragraph: 2000 word(s) out of 2000 remaining
+  - separator: SEO Section
+  - text: Slug
+  - img
+  - textbox "Enter Category Slug"
+  - text: Meta Title
+  - textbox "Enter Meta Title"
+  - text: Meta Description
+  - textbox "Enter Meta Description"
+  - button "Cancel"
+  - button "Add Category"
+- text: Please Select Slippers-Spring-2025-1757584701885 Parka-Autumn-2025-1757584672854 Flip Flops-Summer-2025-1757584290992 T-shirt-Summer-2025-1757584271052 Pencil Skirt-Autumn-2025-1757584207301 Athletic Shoes-Winter-2025-1757584186341 cat dog (catagory CAT cat) catagory CAT cat
+```

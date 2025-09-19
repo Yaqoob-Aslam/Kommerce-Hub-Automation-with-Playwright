@@ -1,0 +1,258 @@
+# Page snapshot
+
+```yaml
+- img "scan"
+- button "Connect to khub scanner"
+- link "Logo":
+  - /url: /
+  - img "Logo"
+- img
+- menu:
+  - menuitem "home Dashboard":
+    - img "home"
+    - link "Dashboard":
+      - /url: /dashboard
+  - menuitem "shop Product Catalog":
+    - button "shop Product Catalog" [expanded]:
+      - img "shop"
+      - text: Product Catalog
+      - menu:
+        - menuitem "• Brands":
+          - link "• Brands":
+            - /url: /catalog/brands
+        - menuitem "• Categories":
+          - link "• Categories":
+            - /url: /catalog/categories
+        - menuitem "• Products":
+          - link "• Products":
+            - /url: /catalog/products
+        - menuitem "• Product Groups":
+          - link "• Product Groups":
+            - /url: /catalog/product-groups
+  - menuitem "reconciliation Inventory":
+    - button "reconciliation Inventory":
+      - img "reconciliation"
+      - text: Inventory
+  - menuitem "shopping Sale":
+    - button "shopping Sale":
+      - img "shopping"
+      - text: Sale
+  - menuitem "rocket Marketing":
+    - button "rocket Marketing":
+      - img "rocket"
+      - text: Marketing
+  - menuitem "tablet Apps":
+    - img "tablet"
+    - link "Apps":
+      - /url: /apps
+  - menuitem "bar-chart Reporting":
+    - button "bar-chart Reporting":
+      - img "bar-chart"
+      - text: Reporting
+  - menuitem "highlight Themes":
+    - button "highlight Themes":
+      - img "highlight"
+      - text: Themes
+  - menuitem "audit Manage Custom Pages":
+    - button "audit Manage Custom Pages":
+      - img "audit"
+      - text: Manage Custom Pages
+  - menuitem "question Queries":
+    - img "question"
+    - link "Queries":
+      - /url: /queries/list
+  - menuitem "team Users":
+    - button "team Users":
+      - img "team"
+      - text: Users
+- list:
+  - listitem:
+    - link:
+      - /url: /dashboard
+      - img
+  - listitem: ">"
+  - listitem:
+    - link "Product Catalog":
+      - /url: /catalog
+  - listitem: ">"
+  - listitem:
+    - link "Product Groups":
+      - /url: /
+- heading "Product Groups" [level=1]
+- button "Quick Create":
+  - img "plus"
+- img "user-switch"
+- img
+- superscript:
+  - paragraph: "0"
+  - paragraph: "1"
+  - paragraph: "2"
+  - paragraph: "3"
+  - paragraph: "4"
+  - paragraph: "5"
+  - paragraph: "6"
+  - paragraph: "7"
+  - paragraph: "8"
+  - paragraph: "9"
+  - paragraph: "0"
+  - paragraph: "1"
+  - paragraph: "2"
+  - paragraph: "3"
+  - paragraph: "4"
+  - paragraph: "5"
+  - paragraph: "6"
+  - paragraph: "7"
+  - paragraph: "8"
+  - paragraph: "9"
+  - paragraph: "0"
+  - paragraph: "1"
+  - paragraph: "2"
+  - paragraph: "3"
+  - paragraph: "4"
+  - paragraph: "5"
+  - paragraph: "6"
+  - paragraph: "7"
+  - paragraph: "8"
+  - paragraph: "9"
+- img "Logo"
+- text: natalia natali2033dummy1@hotmail.es Product Groups Search by Group Name
+- textbox "Search"
+- button "Advance Filters":
+  - img
+  - text: Advance Filters
+- button "Create Product Group"
+- table:
+  - rowgroup:
+    - row "Group Name caret-up caret-down No. of Products caret-up caret-down Group Type Actions":
+      - cell "Group Name caret-up caret-down":
+        - text: Group Name
+        - img "caret-up"
+        - img "caret-down"
+      - cell "No. of Products caret-up caret-down":
+        - text: No. of Products
+        - img "caret-up"
+        - img "caret-down"
+      - cell "Group Type"
+      - cell "Actions"
+      - cell
+- table:
+  - rowgroup:
+    - row "califonia 3 Suggested Preserve Price ":
+      - cell "califonia"
+      - cell "3"
+      - cell "Suggested Preserve Price"
+      - cell ""
+    - row "fdsa 1 Tax ":
+      - cell "fdsa"
+      - cell "1"
+      - cell "Tax"
+      - cell ""
+    - row "fume infinity 5 Suggested Preserve Price ":
+      - cell "fume infinity"
+      - cell "5"
+      - cell "Suggested Preserve Price"
+      - cell ""
+    - row "MARLboro GROUP 10 Suggested Preserve Price ":
+      - cell "MARLboro GROUP"
+      - cell "10"
+      - cell "Suggested Preserve Price"
+      - cell ""
+    - row "New Japannesse Group 9 Suggested Preserve Price ":
+      - cell "New Japannesse Group"
+      - cell "9"
+      - cell "Suggested Preserve Price"
+      - cell ""
+    - row "prime 3 Suggested Preserve Price ":
+      - cell "prime"
+      - cell "3"
+      - cell "Suggested Preserve Price"
+      - cell ""
+    - row "Rose 00 1 Suggested Preserve Price ":
+      - cell "Rose 00"
+      - cell "1"
+      - cell "Suggested Preserve Price"
+      - cell ""
+    - row "SIGMA GROUP 7 Suggested Preserve Price ":
+      - cell "SIGMA GROUP"
+      - cell "7"
+      - cell "Suggested Preserve Price"
+      - cell ""
+    - row "SMOKE 2 Suggested Preserve Price ":
+      - cell "SMOKE"
+      - cell "2"
+      - cell "Suggested Preserve Price"
+      - cell ""
+    - row "swisher 83 Suggested Preserve Price ":
+      - cell "swisher"
+      - cell "83"
+      - cell "Suggested Preserve Price"
+      - cell ""
+    - row "Velvets Group 7 Suggested Preserve Price ":
+      - cell "Velvets Group"
+      - cell "7"
+      - cell "Suggested Preserve Price"
+      - cell ""
+    - row "white owl 3 Suggested Preserve Price ":
+      - cell "white owl"
+      - cell "3"
+      - cell "Suggested Preserve Price"
+      - cell ""
+- list:
+  - listitem "Previous Page":
+    - button "left" [disabled]:
+      - img "left"
+  - listitem "1"
+  - listitem "Next Page":
+    - button "right" [disabled]:
+      - img "right"
+  - listitem:
+    - combobox "Page Size"
+    - text: 20 / page
+- tablist:
+  - listitem:
+    - tab "Audit Logs" [selected]
+  - listitem:
+    - tab "Notifications"
+  - listitem:
+    - tab "Settings"
+- link "":
+  - /url: "#"
+- tabpanel:
+  - heading "System Messages" [level=5]
+  - link "Top Authors":
+    - /url: "#"
+  - text: Most Successful Fellas +82$
+  - link "Popular Authors":
+    - /url: "#"
+  - text: Most Successful Fellas +280$
+  - link "New Users":
+    - /url: "#"
+  - text: Most Successful Fellas +4500$
+  - link "Active Customers":
+    - /url: "#"
+  - text: Most Successful Fellas +4500$
+  - link "Bestseller Theme":
+    - /url: "#"
+  - text: Most Successful Fellas +4500$
+  - heading "Notifications" [level=5]
+  - img "Stockholm-icons / Home / Library"
+  - link "Another purpose persuade":
+    - /url: "#"
+  - text: Due in 2 Days +28%
+  - img "Stockholm-icons / Communication / Write"
+  - link "Would be to people":
+    - /url: "#"
+  - text: Due in 2 Days +50%
+  - img "Stockholm-icons / Communication / Group-chat"
+  - link "Purpose would be to persuade":
+    - /url: "#"
+  - text: Due in 2 Days -27%
+  - img "Stockholm-icons / General / Attachment2"
+  - link "The best product":
+    - /url: "#"
+  - text: Due in 2 Days +8%
+- text: Loading ... Loading ...
+- img
+- button "Open Intercom Messenger":
+  - img
+```

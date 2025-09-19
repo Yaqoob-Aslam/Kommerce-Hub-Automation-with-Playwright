@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","39369","Login","chromium","Wed Aug 27 02:40:54 PKT 2025","passed","Wed Aug 27 02:41:33 PKT 2025","Kommerce HUB Brand","categoriesModule.spec.js","",""
+"","7796","Add Category with MSA & ECOM","chromium","Wed Aug 27 02:41:54 PKT 2025","passed","Wed Aug 27 02:42:02 PKT 2025","Kommerce HUB Brand","categoriesModule.spec.js","",""
+"","20325","Add Category","chromium","Wed Aug 27 02:41:34 PKT 2025","passed","Wed Aug 27 02:41:54 PKT 2025","Kommerce HUB Brand","categoriesModule.spec.js","",""
+"","14972","Add Category with MSA, ECOM & Parent Category","chromium","Wed Aug 27 02:42:02 PKT 2025","passed","Wed Aug 27 02:42:17 PKT 2025","Kommerce HUB Brand","categoriesModule.spec.js","",""
+"","6986","Add Category with SEO Section","chromium","Wed Aug 27 02:42:44 PKT 2025","passed","Wed Aug 27 02:42:51 PKT 2025","Kommerce HUB Brand","categoriesModule.spec.js","",""
+"","26654","Add Category with MSA, ECOM, Parent Category & Image Upload","chromium","Wed Aug 27 02:42:17 PKT 2025","passed","Wed Aug 27 02:42:44 PKT 2025","Kommerce HUB Brand","categoriesModule.spec.js","",""

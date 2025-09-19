@@ -1,0 +1,195 @@
+# Page snapshot
+
+```yaml
+- img "scan"
+- button "Connect to khub scanner"
+- link "Logo":
+  - /url: /
+  - img "Logo"
+- img
+- menu:
+  - menuitem "home Dashboard":
+    - img "home"
+    - link "Dashboard":
+      - /url: /dashboard
+  - menuitem "shop Product Catalog":
+    - button "shop Product Catalog" [expanded]:
+      - img "shop"
+      - text: Product Catalog
+      - menu:
+        - menuitem "• Brands":
+          - link "• Brands":
+            - /url: /catalog/brands
+        - menuitem "• Categories":
+          - link "• Categories":
+            - /url: /catalog/categories
+        - menuitem "• Products":
+          - link "• Products":
+            - /url: /catalog/products
+        - menuitem "• Product Groups":
+          - link "• Product Groups":
+            - /url: /catalog/product-groups
+  - menuitem "reconciliation Inventory":
+    - button "reconciliation Inventory":
+      - img "reconciliation"
+      - text: Inventory
+  - menuitem "shopping Sale":
+    - button "shopping Sale":
+      - img "shopping"
+      - text: Sale
+  - menuitem "rocket Marketing":
+    - button "rocket Marketing":
+      - img "rocket"
+      - text: Marketing
+  - menuitem "tablet Apps":
+    - img "tablet"
+    - link "Apps":
+      - /url: /apps
+  - menuitem "bar-chart Reporting":
+    - button "bar-chart Reporting":
+      - img "bar-chart"
+      - text: Reporting
+  - menuitem "highlight Themes":
+    - button "highlight Themes":
+      - img "highlight"
+      - text: Themes
+  - menuitem "audit Manage Custom Pages":
+    - button "audit Manage Custom Pages":
+      - img "audit"
+      - text: Manage Custom Pages
+  - menuitem "question Queries":
+    - img "question"
+    - link "Queries":
+      - /url: /queries/list
+  - menuitem "team Users":
+    - button "team Users":
+      - img "team"
+      - text: Users
+- list:
+  - listitem:
+    - link:
+      - /url: /dashboard
+      - img
+  - listitem: ">"
+  - listitem:
+    - link "Product Catalog":
+      - /url: /catalog
+  - listitem: ">"
+  - listitem:
+    - link "Products":
+      - /url: /
+- heading "Products" [level=1]
+- button "Quick Create":
+  - img "plus"
+- img "user-switch"
+- img
+- superscript:
+  - paragraph: "0"
+  - paragraph: "1"
+  - paragraph: "2"
+  - paragraph: "3"
+  - paragraph: "4"
+  - paragraph: "5"
+  - paragraph: "6"
+  - paragraph: "7"
+  - paragraph: "8"
+  - paragraph: "9"
+  - paragraph: "0"
+  - paragraph: "1"
+  - paragraph: "2"
+  - paragraph: "3"
+  - paragraph: "4"
+  - paragraph: "5"
+  - paragraph: "6"
+  - paragraph: "7"
+  - paragraph: "8"
+  - paragraph: "9"
+  - paragraph: "0"
+  - paragraph: "1"
+  - paragraph: "2"
+  - paragraph: "3"
+  - paragraph: "4"
+  - paragraph: "5"
+  - paragraph: "6"
+  - paragraph: "7"
+  - paragraph: "8"
+  - paragraph: "9"
+  - paragraph: "0"
+  - paragraph: "1"
+  - paragraph: "2"
+  - paragraph: "3"
+  - paragraph: "4"
+  - paragraph: "5"
+  - paragraph: "6"
+  - paragraph: "7"
+  - paragraph: "8"
+  - paragraph: "9"
+  - paragraph: "0"
+  - paragraph: "1"
+  - paragraph: "2"
+  - paragraph: "3"
+  - paragraph: "4"
+  - paragraph: "5"
+  - paragraph: "6"
+  - paragraph: "7"
+  - paragraph: "8"
+  - paragraph: "9"
+  - paragraph: "0"
+  - paragraph: "1"
+  - paragraph: "2"
+  - paragraph: "3"
+  - paragraph: "4"
+  - paragraph: "5"
+  - paragraph: "6"
+  - paragraph: "7"
+  - paragraph: "8"
+  - paragraph: "9"
+- img "Logo"
+- text: natalia natali2033dummy1@hotmail.es
+- tablist:
+  - listitem:
+    - tab "Audit Logs" [selected]
+  - listitem:
+    - tab "Notifications"
+  - listitem:
+    - tab "Settings"
+- link "":
+  - /url: "#"
+- tabpanel:
+  - heading "System Messages" [level=5]
+  - link "Top Authors":
+    - /url: "#"
+  - text: Most Successful Fellas +82$
+  - link "Popular Authors":
+    - /url: "#"
+  - text: Most Successful Fellas +280$
+  - link "New Users":
+    - /url: "#"
+  - text: Most Successful Fellas +4500$
+  - link "Active Customers":
+    - /url: "#"
+  - text: Most Successful Fellas +4500$
+  - link "Bestseller Theme":
+    - /url: "#"
+  - text: Most Successful Fellas +4500$
+  - heading "Notifications" [level=5]
+  - img "Stockholm-icons / Home / Library"
+  - link "Another purpose persuade":
+    - /url: "#"
+  - text: Due in 2 Days +28%
+  - img "Stockholm-icons / Communication / Write"
+  - link "Would be to people":
+    - /url: "#"
+  - text: Due in 2 Days +50%
+  - img "Stockholm-icons / Communication / Group-chat"
+  - link "Purpose would be to persuade":
+    - /url: "#"
+  - text: Due in 2 Days -27%
+  - img "Stockholm-icons / General / Attachment2"
+  - link "The best product":
+    - /url: "#"
+  - text: Due in 2 Days +8%
+- img
+- button "Open Intercom Messenger":
+  - img
+```

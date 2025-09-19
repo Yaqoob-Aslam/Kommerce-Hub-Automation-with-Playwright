@@ -1,0 +1,367 @@
+# Page snapshot
+
+```yaml
+- img "scan"
+- button "Connect to khub scanner"
+- link "Logo":
+  - /url: /
+  - img "Logo"
+- img
+- menu:
+  - menuitem "home Dashboard":
+    - img "home"
+    - link "Dashboard":
+      - /url: /dashboard
+  - menuitem "shop Product Catalog":
+    - button "shop Product Catalog" [expanded]:
+      - img "shop"
+      - text: Product Catalog
+      - menu:
+        - menuitem "• Brands":
+          - link "• Brands":
+            - /url: /catalog/brands
+        - menuitem "• Categories":
+          - link "• Categories":
+            - /url: /catalog/categories
+        - menuitem "• Products":
+          - link "• Products":
+            - /url: /catalog/products
+        - menuitem "• Product Groups":
+          - link "• Product Groups":
+            - /url: /catalog/product-groups
+  - menuitem "reconciliation Inventory":
+    - button "reconciliation Inventory":
+      - img "reconciliation"
+      - text: Inventory
+  - menuitem "shopping Sale":
+    - button "shopping Sale":
+      - img "shopping"
+      - text: Sale
+  - menuitem "rocket Marketing":
+    - button "rocket Marketing":
+      - img "rocket"
+      - text: Marketing
+  - menuitem "tablet Apps":
+    - img "tablet"
+    - link "Apps":
+      - /url: /apps
+  - menuitem "bar-chart Reporting":
+    - button "bar-chart Reporting":
+      - img "bar-chart"
+      - text: Reporting
+  - menuitem "highlight Themes":
+    - button "highlight Themes":
+      - img "highlight"
+      - text: Themes
+  - menuitem "audit Manage Custom Pages":
+    - button "audit Manage Custom Pages":
+      - img "audit"
+      - text: Manage Custom Pages
+  - menuitem "question Queries":
+    - img "question"
+    - link "Queries":
+      - /url: /queries/list
+  - menuitem "team Users":
+    - button "team Users":
+      - img "team"
+      - text: Users
+- list:
+  - listitem:
+    - link:
+      - /url: /dashboard
+      - img
+  - listitem: ">"
+  - listitem:
+    - link "Product Catalog":
+      - /url: /catalog
+  - listitem: ">"
+  - listitem:
+    - link "Products":
+      - /url: /
+- heading "Test Product" [level=1]
+- button "Quick Create":
+  - img "plus"
+- img "user-switch"
+- img
+- superscript:
+  - paragraph: "0"
+  - paragraph: "1"
+  - paragraph: "2"
+  - paragraph: "3"
+  - paragraph: "4"
+  - paragraph: "5"
+  - paragraph: "6"
+  - paragraph: "7"
+  - paragraph: "8"
+  - paragraph: "9"
+  - paragraph: "0"
+  - paragraph: "1"
+  - paragraph: "2"
+  - paragraph: "3"
+  - paragraph: "4"
+  - paragraph: "5"
+  - paragraph: "6"
+  - paragraph: "7"
+  - paragraph: "8"
+  - paragraph: "9"
+  - paragraph: "0"
+  - paragraph: "1"
+  - paragraph: "2"
+  - paragraph: "3"
+  - paragraph: "4"
+  - paragraph: "5"
+  - paragraph: "6"
+  - paragraph: "7"
+  - paragraph: "8"
+  - paragraph: "9"
+  - paragraph: "0"
+  - paragraph: "1"
+  - paragraph: "2"
+  - paragraph: "3"
+  - paragraph: "4"
+  - paragraph: "5"
+  - paragraph: "6"
+  - paragraph: "7"
+  - paragraph: "8"
+  - paragraph: "9"
+  - paragraph: "0"
+  - paragraph: "1"
+  - paragraph: "2"
+  - paragraph: "3"
+  - paragraph: "4"
+  - paragraph: "5"
+  - paragraph: "6"
+  - paragraph: "7"
+  - paragraph: "8"
+  - paragraph: "9"
+  - paragraph: "0"
+  - paragraph: "1"
+  - paragraph: "2"
+  - paragraph: "3"
+  - paragraph: "4"
+  - paragraph: "5"
+  - paragraph: "6"
+  - paragraph: "7"
+  - paragraph: "8"
+  - paragraph: "9"
+- img "Logo"
+- text: natalia natali2033dummy1@hotmail.es
+- tablist:
+  - tab "Basic" [selected]
+  - tab "Pricing & Stock"
+  - tab "SEO"
+  - tab "Variants"
+  - tab "Tax Section"
+  - tab "Promotions"
+- tabpanel "Basic":
+  - text: Select Category
+  - img
+  - text: Add Category
+  - paragraph: Please Select Category
+  - textbox "Search Category"
+  - tree:
+    - textbox
+  - text: A-line Skirt-Spring-2025-1756243669906 Automobiles AUTOMOTIVE
+  - img "caret-down"
+  - text: BEVERAGES Blazer-Summer-2025-1756243805461 Bomber Jacket-Winter-2025-1756217512220 Brogues-Summer-2025-1756297691879 Capris-Summer-2025-1756243689870
+  - img "caret-down"
+  - text: catagory CAT cat Chinos-Winter-2025-1756218060236 CIGARETTES
+  - img "caret-down"
+  - text: Cigars - Premium CLOTHING Dairy Products
+  - img "caret-down"
+  - text: Denim Jacket-Spring-2025 Dress-Autumn-2025 Dress-Winter-2025
+  - img "caret-down"
+  - text: E-cigarrettes Electronics Fitness Trackers Flats-Autumn-2025-1756216995299 Gama Pehalwan GROCERY/HEALTH Heels-Winter-2025-1756218099513 Hemp/THCA High-waisted-Autumn-2025-1756243874987 Hoodie-Autumn-2025 Hoodie-Summer-2025 Hoodie-Summer-2025-1756217364563 Hoodie-Winter-2025 HOUSEHOLD & STORE SUPPLIES Indiana category Jacket-Spring-2025 Jeans-1756113439999 Jeggings-Summer-2025 Joggers-Summer-2025-1756217166155 Jumper-Winter-2025 Kites
+  - img "caret-down"
+  - text: Kurti-Spring-2025 Laptops Leggings-Spring-2025-1756298089631 Leggings-Winter-2025-1756244494391 Loose Leaf Low-rise-Spring-2025-1756217606815 Maxi Dress-Spring-2025 Maxi Skirt-Summer-2025-1756297905297 Midi Dress-Summer-2025-1756297771192 Mini Dress-Autumn-2025-1756297670992 Mini Skirt-Autumn-2025 MISC Novelty
+  - img "caret-down"
+  - text: PAPER/WRAPS/POUCHES Pea Coat-Summer-2025 pen Pencil Skirt-Autumn-2025-1756217072199 Peplum Top-Autumn-2025-1756218804454 piece cat Poncho-Spring-2025-1756218037956
+  - img "caret-down"
+  - text: Raincoat-Spring-2025 RYO Combination Kit Shawl-Autumn-2025-1756244564177 Shirt Dress-Autumn-2025 Shirt-Autumn-2025 Shirt-Autumn-2025-1756244514725 Shorts-Autumn-2025 Skirt-Autumn-2025-1756298113307 Slippers-Autumn-2025 Slippers-Autumn-2025-1756297751277 Smock Dress-Spring-2025 Sneakers-Spring-2025 Sneakers-Summer-2025 Socket STORE/HOUSEHOLD SUPPLIES
+  - img "caret-down"
+  - text: Sweater-Spring-2025-1756218824214 T-Shirt
+  - img "caret-down"
+  - text: TOBACCO Tobacco Derived Products Trench Coat-Autumn-2025-1756297885533 Tunic-Winter-2025-1756243825530 UnCategorized VAPOR
+  - img "caret-down"
+  - text: Wrap Dress-Summer-2025-1756217534783
+  - button "General Information ACTIVE" [expanded]:
+    - heading "General Information" [level=4]
+    - combobox:
+      - option "ACTIVE" [selected]
+      - option "INACTIVE"
+      - option "DISCONTINUED"
+  - region "General Information ACTIVE":
+    - text: Product Name*
+    - textbox "Product Name": Test Product
+    - text: Alias
+    - img
+    - text: Test Alias...
+    - combobox
+    - text: Product Ecom Name
+    - textbox "Product Ecom Name": Test ecom name
+    - text: SKU
+    - img
+    - checkbox "Auto generated SKU" [checked]
+    - text: Auto generated SKU Weight
+    - spinbutton "Weight": "100"
+    - button "lb"
+    - text: Select Brand
+    - combobox
+    - text: EcoGlow UPC
+    - img
+    - combobox
+    - text: Enter UPC
+    - checkbox "Auto fetch image" [checked]
+    - text: Auto fetch image Retail UPC 1
+    - textbox "Retail UPC 1": "123456789012"
+    - text: Retail UPC 2
+    - textbox "Retail UPC 2": "123456789013"
+    - text: Bin Code
+    - img
+    - textbox "Bin Code": BIN123
+    - text: Zone
+    - textbox "Enter Zone": Zone1
+    - text: Aisle
+    - textbox "Enter Aisle": Aisle1
+    - text: Manufacturer
+    - combobox
+    - text: Select Select Suppliers fitzone
+    - combobox
+    - text: Select Main Category
+    - combobox
+    - text: A-line Skirt-Spring-2025-1756243669906 Tags
+    - img
+    - text: LAPTOP
+    - combobox
+    - text: Product Note
+    - textbox "Place note here": This is a test note.
+    - checkbox "Is MSA" [checked]
+    - text: Is MSA Enable BO product
+    - checkbox [checked]
+    - text: Is Tax Applicable
+    - checkbox [checked]
+    - heading "Ecommerce" [level=4]
+    - checkbox "Online" [checked]
+    - text: Online
+    - checkbox "Featured" [checked]
+    - text: Featured
+    - checkbox "Is Hot Seller" [checked]
+    - text: Is Hot Seller
+    - checkbox "New Arrival" [checked]
+    - text: New Arrival Enable BO for Online site
+    - checkbox
+    - text: Detail Product Description
+    - button "Generate Description"
+    - application "Rich Text Editor":
+      - toolbar "Editor toolbar":
+        - button "Paragraph":
+          - text: Paragraph
+          - img
+        - button "Bold":
+          - img
+        - button "Italic":
+          - img
+        - button "Link":
+          - img
+        - button "Bulleted List":
+          - img
+        - button "Numbered List":
+          - img
+        - button "Increase indent" [disabled]:
+          - img
+        - button "Decrease indent" [disabled]:
+          - img
+        - button "Block quote":
+          - img
+        - button "Insert table":
+          - img
+          - img
+        - button "Undo" [disabled]:
+          - img
+        - button "Redo" [disabled]:
+          - img
+      - textbox "Rich Text Editor, main":
+        - paragraph
+    - paragraph: 1000 word(s) out of 1000 remaining
+    - paragraph: Upload COA
+    - button "Upload File":
+      - img
+      - text: Upload File
+    - button "Upload up to 6 images Image Size should be 400 x 400 px":
+      - heading [level=3]
+      - text: Upload up to 6 images Image Size should be 400 x 400 px
+    - text: Youtube Link
+    - textbox "Enter youtube link"
+  - button "MSA" [expanded]:
+    - heading "MSA" [level=4]
+  - region "General Information ACTIVE":
+    - text: Product Description*
+    - textbox "Enter Product Description": Test Product
+    - text: Promotion Description
+    - textbox "Enter Promotion Description"
+    - text: Promotion Indicator*
+    - combobox:
+      - option "Y"
+      - option "N" [selected]
+    - text: Sticks Count*
+    - textbox "Enter Sticks Count"
+    - text: Distributor Component Shipper Flag
+    - combobox:
+      - option "Please Select" [selected]
+      - option "Y"
+      - option "N"
+    - text: Manufacturer Promotion Code
+    - textbox "Enter Manufacturer Promotion Code"
+    - text: Select MSA Category*
+    - combobox
+    - text: Select MSA Category
+- button "Cancel"
+- button "Next"
+- tablist:
+  - listitem:
+    - tab "Audit Logs" [selected]
+  - listitem:
+    - tab "Notifications"
+  - listitem:
+    - tab "Settings"
+- link "":
+  - /url: "#"
+- tabpanel:
+  - heading "System Messages" [level=5]
+  - link "Top Authors":
+    - /url: "#"
+  - text: Most Successful Fellas +82$
+  - link "Popular Authors":
+    - /url: "#"
+  - text: Most Successful Fellas +280$
+  - link "New Users":
+    - /url: "#"
+  - text: Most Successful Fellas +4500$
+  - link "Active Customers":
+    - /url: "#"
+  - text: Most Successful Fellas +4500$
+  - link "Bestseller Theme":
+    - /url: "#"
+  - text: Most Successful Fellas +4500$
+  - heading "Notifications" [level=5]
+  - img "Stockholm-icons / Home / Library"
+  - link "Another purpose persuade":
+    - /url: "#"
+  - text: Due in 2 Days +28%
+  - img "Stockholm-icons / Communication / Write"
+  - link "Would be to people":
+    - /url: "#"
+  - text: Due in 2 Days +50%
+  - img "Stockholm-icons / Communication / Group-chat"
+  - link "Purpose would be to persuade":
+    - /url: "#"
+  - text: Due in 2 Days -27%
+  - img "Stockholm-icons / General / Attachment2"
+  - link "The best product":
+    - /url: "#"
+  - text: Due in 2 Days +8%
+- img "Stockholm-icons / Navigation / Up-2"
+- img
+- button "Open Intercom Messenger":
+  - img
+```

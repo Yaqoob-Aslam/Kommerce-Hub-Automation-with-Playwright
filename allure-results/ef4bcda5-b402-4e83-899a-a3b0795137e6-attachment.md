@@ -1,0 +1,341 @@
+# Page snapshot
+
+```yaml
+- img "scan"
+- button "Connect to khub scanner"
+- link "Logo":
+  - /url: /
+  - img "Logo"
+- img
+- menu:
+  - menuitem "home Dashboard":
+    - img "home"
+    - link "Dashboard":
+      - /url: /dashboard
+  - menuitem "shop Product Catalog":
+    - button "shop Product Catalog":
+      - img "shop"
+      - text: Product Catalog
+  - menuitem "reconciliation Inventory":
+    - button "reconciliation Inventory":
+      - img "reconciliation"
+      - text: Inventory
+  - menuitem "shopping Sale":
+    - button "shopping Sale":
+      - img "shopping"
+      - text: Sale
+  - menuitem "rocket Marketing":
+    - button "rocket Marketing":
+      - img "rocket"
+      - text: Marketing
+  - menuitem "tablet Apps":
+    - img "tablet"
+    - link "Apps":
+      - /url: /apps
+  - menuitem "bar-chart Reporting":
+    - button "bar-chart Reporting":
+      - img "bar-chart"
+      - text: Reporting
+  - menuitem "highlight Themes":
+    - button "highlight Themes":
+      - img "highlight"
+      - text: Themes
+  - menuitem "audit Manage Custom Pages":
+    - button "audit Manage Custom Pages":
+      - img "audit"
+      - text: Manage Custom Pages
+  - menuitem "question Queries":
+    - img "question"
+    - link "Queries":
+      - /url: /queries/list
+  - menuitem "team Users":
+    - button "team Users":
+      - img "team"
+      - text: Users
+- list:
+  - listitem:
+    - link:
+      - /url: /dashboard
+      - img
+  - listitem: ">"
+  - listitem:
+    - link "Dashboard":
+      - /url: /dashboard
+- heading "Dashboard" [level=1]
+- button "Quick Create":
+  - img "plus"
+- img "user-switch"
+- img
+- superscript:
+  - paragraph: "0"
+  - paragraph: "1"
+  - paragraph: "2"
+  - paragraph: "3"
+  - paragraph: "4"
+  - paragraph: "5"
+  - paragraph: "6"
+  - paragraph: "7"
+  - paragraph: "8"
+  - paragraph: "9"
+  - paragraph: "0"
+  - paragraph: "1"
+  - paragraph: "2"
+  - paragraph: "3"
+  - paragraph: "4"
+  - paragraph: "5"
+  - paragraph: "6"
+  - paragraph: "7"
+  - paragraph: "8"
+  - paragraph: "9"
+  - paragraph: "0"
+  - paragraph: "1"
+  - paragraph: "2"
+  - paragraph: "3"
+  - paragraph: "4"
+  - paragraph: "5"
+  - paragraph: "6"
+  - paragraph: "7"
+  - paragraph: "8"
+  - paragraph: "9"
+  - paragraph: "0"
+  - paragraph: "1"
+  - paragraph: "2"
+  - paragraph: "3"
+  - paragraph: "4"
+  - paragraph: "5"
+  - paragraph: "6"
+  - paragraph: "7"
+  - paragraph: "8"
+  - paragraph: "9"
+  - paragraph: "0"
+  - paragraph: "1"
+  - paragraph: "2"
+  - paragraph: "3"
+  - paragraph: "4"
+  - paragraph: "5"
+  - paragraph: "6"
+  - paragraph: "7"
+  - paragraph: "8"
+  - paragraph: "9"
+  - paragraph: "0"
+  - paragraph: "1"
+  - paragraph: "2"
+  - paragraph: "3"
+  - paragraph: "4"
+  - paragraph: "5"
+  - paragraph: "6"
+  - paragraph: "7"
+  - paragraph: "8"
+  - paragraph: "9"
+- img "Logo"
+- text: natalia natali2033dummy1@hotmail.es
+- heading [level=3]
+- strong: Select Date Range
+- textbox "Start date": 09-12-2025
+- img "swap-right"
+- textbox "End date": 09-12-2025
+- img "calendar"
+- link "Total Sale/Revenue 0":
+  - /url: /reporting/purchasing-inventory/sales/sales-summary
+  - img
+  - paragraph: Total Sale/Revenue
+  - text: "0"
+- link "Paid Amount 0":
+  - /url: /reporting/financial-reporting/payment-received-report
+  - img
+  - paragraph: Paid Amount
+  - text: "0"
+- link "Payable Amount 0":
+  - /url: /reporting/financial-reporting/account-payable-report
+  - img
+  - paragraph: Payable Amount
+  - text: "0"
+- link "Receivable Amount 0":
+  - /url: /reporting/financial-reporting/account-receivable-report
+  - img
+  - paragraph: Receivable Amount
+  - text: "0"
+- link "Delivery Orders 0":
+  - /url: /sale/fulfillment
+  - img
+  - paragraph: Delivery Orders
+  - text: "0"
+- link "Pickup Orders 0":
+  - /url: /sale/fulfillment
+  - img
+  - paragraph: Pickup Orders
+  - text: "0"
+- table:
+  - rowgroup:
+    - row "Sale Order(s) Qty Amount":
+      - cell "Sale Order(s)"
+      - cell "Qty"
+      - cell "Amount"
+  - rowgroup
+  - rowgroup:
+    - row "0 0.00":
+      - cell:
+        - separator
+      - cell "0":
+        - separator
+        - text: "0"
+      - cell "0.00":
+        - separator
+        - text: "0.00"
+- table:
+  - rowgroup:
+    - row "Purchase Order(s) Qty Amount":
+      - cell "Purchase Order(s)"
+      - cell "Qty"
+      - cell "Amount"
+  - rowgroup
+  - rowgroup:
+    - row "0 0.00":
+      - cell:
+        - separator
+      - cell "0":
+        - separator
+        - text: "0"
+      - cell "0.00":
+        - separator
+        - text: "0.00"
+- table:
+  - rowgroup:
+    - row "Return Order(s) Qty Amount":
+      - cell "Return Order(s)"
+      - cell "Qty"
+      - cell "Amount"
+  - rowgroup
+  - rowgroup:
+    - row "0 0.00":
+      - cell:
+        - separator
+      - cell "0":
+        - separator
+        - text: "0"
+      - cell "0.00":
+        - separator
+        - text: "0.00"
+- heading "Notifications 17036 Notifications" [level=3]
+- button "See All"
+- table:
+  - rowgroup:
+    - row "Date | Day Time Message":
+      - columnheader "Date | Day"
+      - columnheader "Time"
+      - columnheader "Message"
+  - rowgroup:
+    - row "09/12/2025 | Fri 12:33 PM Product SANTOOR stock alert in channel Primary":
+      - cell "09/12/2025 | Fri"
+      - cell "12:33 PM"
+      - cell "Product SANTOOR stock alert in channel Primary"
+    - row "09/12/2025 | Fri 12:33 PM Product SANTOOR-FRESH SKIN stock alert in channel Primary":
+      - cell "09/12/2025 | Fri"
+      - cell "12:33 PM"
+      - cell "Product SANTOOR-FRESH SKIN stock alert in channel Primary"
+    - row "09/12/2025 | Fri 12:33 PM Product SANTOOR-TURUMATIC stock alert in channel Primary":
+      - cell "09/12/2025 | Fri"
+      - cell "12:33 PM"
+      - cell "Product SANTOOR-TURUMATIC stock alert in channel Primary"
+    - row "09/12/2025 | Fri 12:33 PM Sale Order no = SO-250912-23024 is updated successfully by staff member narias":
+      - cell "09/12/2025 | Fri"
+      - cell "12:33 PM"
+      - cell "Sale Order no = SO-250912-23024 is updated successfully by staff member narias"
+    - row "09/12/2025 | Fri 12:33 PM Sale Order no = None is created successfully by staff member narias":
+      - cell "09/12/2025 | Fri"
+      - cell "12:33 PM"
+      - cell "Sale Order no = None is created successfully by staff member narias"
+    - row "09/12/2025 | Fri 12:31 PM Product SANTOOR stock alert in channel Primary":
+      - cell "09/12/2025 | Fri"
+      - cell "12:31 PM"
+      - cell "Product SANTOOR stock alert in channel Primary"
+    - row "09/12/2025 | Fri 12:31 PM Product SANTOOR-FRESH SKIN stock alert in channel Primary":
+      - cell "09/12/2025 | Fri"
+      - cell "12:31 PM"
+      - cell "Product SANTOOR-FRESH SKIN stock alert in channel Primary"
+- link "Total Extended Stock 0":
+  - /url: /reporting/inventory-report/inventory-valuation-report
+  - img
+  - img
+  - paragraph: Total Extended Stock
+  - text: "0"
+- link "Total Products 0":
+  - /url: /catalog/products
+  - img
+  - paragraph: Total Products
+  - text: "0"
+- link "Total Categories 0":
+  - /url: /catalog/categories
+  - img
+  - paragraph: Total Categories
+  - text: "0"
+- link "Total Brands 0":
+  - /url: /catalog/brands
+  - img
+  - paragraph: Total Brands
+  - text: "0"
+- link "Stockholm-icons / General / User Total Customers 0":
+  - /url: /sale/customers
+  - img "Stockholm-icons / General / User"
+  - paragraph: Total Customers
+  - text: "0"
+- link "Total Suppliers 0":
+  - /url: /inventory/suppliers
+  - img
+  - paragraph: Total Suppliers
+  - text: "0"
+- heading "Stock Alerts" [level=3]
+- img
+- textbox "Search"
+- text: Search by product name, SKU/UPC
+- img "audio-loading"
+- text: Loading...
+- combobox:
+  - option "20" [selected]
+  - option "50"
+  - option "100"
+- tablist:
+  - listitem:
+    - tab "Audit Logs" [selected]
+  - listitem:
+    - tab "Notifications"
+  - listitem:
+    - tab "Settings"
+- link "":
+  - /url: "#"
+- tabpanel:
+  - heading "System Messages" [level=5]
+  - link "Top Authors":
+    - /url: "#"
+  - text: Most Successful Fellas +82$
+  - link "Popular Authors":
+    - /url: "#"
+  - text: Most Successful Fellas +280$
+  - link "New Users":
+    - /url: "#"
+  - text: Most Successful Fellas +4500$
+  - link "Active Customers":
+    - /url: "#"
+  - text: Most Successful Fellas +4500$
+  - link "Bestseller Theme":
+    - /url: "#"
+  - text: Most Successful Fellas +4500$
+  - heading "Notifications" [level=5]
+  - img "Stockholm-icons / Home / Library"
+  - link "Another purpose persuade":
+    - /url: "#"
+  - text: Due in 2 Days +28%
+  - img "Stockholm-icons / Communication / Write"
+  - link "Would be to people":
+    - /url: "#"
+  - text: Due in 2 Days +50%
+  - img "Stockholm-icons / Communication / Group-chat"
+  - link "Purpose would be to persuade":
+    - /url: "#"
+  - text: Due in 2 Days -27%
+  - img "Stockholm-icons / General / Attachment2"
+  - link "The best product":
+    - /url: "#"
+  - text: Due in 2 Days +8%
+- img
+```

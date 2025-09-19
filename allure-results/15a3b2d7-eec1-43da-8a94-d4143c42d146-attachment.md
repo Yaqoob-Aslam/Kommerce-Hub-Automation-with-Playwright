@@ -1,0 +1,1184 @@
+# Page snapshot
+
+```yaml
+- img "scan"
+- button "Connect to khub scanner"
+- link "Logo":
+  - /url: /
+  - img "Logo"
+- img
+- menu:
+  - menuitem "home Dashboard":
+    - img "home"
+    - link "Dashboard":
+      - /url: /dashboard
+  - menuitem "shop Product Catalog":
+    - button "shop Product Catalog" [expanded]:
+      - img "shop"
+      - text: Product Catalog
+      - menu:
+        - menuitem "• Brands":
+          - link "• Brands":
+            - /url: /catalog/brands
+        - menuitem "• Categories":
+          - link "• Categories":
+            - /url: /catalog/categories
+        - menuitem "• Products":
+          - link "• Products":
+            - /url: /catalog/products
+        - menuitem "• Product Groups":
+          - link "• Product Groups":
+            - /url: /catalog/product-groups
+  - menuitem "reconciliation Inventory":
+    - button "reconciliation Inventory":
+      - img "reconciliation"
+      - text: Inventory
+  - menuitem "shopping Sale":
+    - button "shopping Sale":
+      - img "shopping"
+      - text: Sale
+  - menuitem "rocket Marketing":
+    - button "rocket Marketing":
+      - img "rocket"
+      - text: Marketing
+  - menuitem "tablet Apps":
+    - img "tablet"
+    - link "Apps":
+      - /url: /apps
+  - menuitem "bar-chart Reporting":
+    - button "bar-chart Reporting":
+      - img "bar-chart"
+      - text: Reporting
+  - menuitem "highlight Themes":
+    - button "highlight Themes":
+      - img "highlight"
+      - text: Themes
+  - menuitem "audit Manage Custom Pages":
+    - button "audit Manage Custom Pages":
+      - img "audit"
+      - text: Manage Custom Pages
+  - menuitem "question Queries":
+    - img "question"
+    - link "Queries":
+      - /url: /queries/list
+  - menuitem "team Users":
+    - button "team Users":
+      - img "team"
+      - text: Users
+- list:
+  - listitem:
+    - link:
+      - /url: /dashboard
+      - img
+  - listitem: ">"
+  - listitem:
+    - link "Product Catalog":
+      - /url: /catalog
+  - listitem: ">"
+  - listitem:
+    - link "Product Groups":
+      - /url: /
+- heading "Product Groups" [level=1]
+- button "Quick Create":
+  - img "plus"
+- img "user-switch"
+- img
+- superscript:
+  - paragraph: "0"
+  - paragraph: "1"
+  - paragraph: "2"
+  - paragraph: "3"
+  - paragraph: "4"
+  - paragraph: "5"
+  - paragraph: "6"
+  - paragraph: "7"
+  - paragraph: "8"
+  - paragraph: "9"
+  - paragraph: "0"
+  - paragraph: "1"
+  - paragraph: "2"
+  - paragraph: "3"
+  - paragraph: "4"
+  - paragraph: "5"
+  - paragraph: "6"
+  - paragraph: "7"
+  - paragraph: "8"
+  - paragraph: "9"
+  - paragraph: "0"
+  - paragraph: "1"
+  - paragraph: "2"
+  - paragraph: "3"
+  - paragraph: "4"
+  - paragraph: "5"
+  - paragraph: "6"
+  - paragraph: "7"
+  - paragraph: "8"
+  - paragraph: "9"
+  - paragraph: "0"
+  - paragraph: "1"
+  - paragraph: "2"
+  - paragraph: "3"
+  - paragraph: "4"
+  - paragraph: "5"
+  - paragraph: "6"
+  - paragraph: "7"
+  - paragraph: "8"
+  - paragraph: "9"
+  - paragraph: "0"
+  - paragraph: "1"
+  - paragraph: "2"
+  - paragraph: "3"
+  - paragraph: "4"
+  - paragraph: "5"
+  - paragraph: "6"
+  - paragraph: "7"
+  - paragraph: "8"
+  - paragraph: "9"
+  - paragraph: "0"
+  - paragraph: "1"
+  - paragraph: "2"
+  - paragraph: "3"
+  - paragraph: "4"
+  - paragraph: "5"
+  - paragraph: "6"
+  - paragraph: "7"
+  - paragraph: "8"
+  - paragraph: "9"
+- img "Logo"
+- text: natalia natali2033dummy1@hotmail.es Group Name *
+- textbox "Enter group name"
+- text: Group Type *
+- combobox
+- text: Select group type
+- button "Add Products"
+- button "Back"
+- button "Create Group"
+- table:
+  - rowgroup:
+    - row "Sr.No Image Products caret-up caret-down Category caret-up caret-down Brand caret-up caret-down":
+      - cell "Sr.No"
+      - cell "Image"
+      - cell "Products caret-up caret-down":
+        - text: Products
+        - img "caret-up"
+        - img "caret-down"
+      - cell "Category caret-up caret-down":
+        - text: Category
+        - img "caret-up"
+        - img "caret-down"
+      - cell "Brand caret-up caret-down":
+        - text: Brand
+        - img "caret-up"
+        - img "caret-down"
+      - cell
+      - cell
+- table:
+  - rowgroup:
+    - row "No Data":
+      - cell "No Data":
+        - img
+        - paragraph: No Data
+- tablist:
+  - listitem:
+    - tab "Audit Logs" [selected]
+  - listitem:
+    - tab "Notifications"
+  - listitem:
+    - tab "Settings"
+- link "":
+  - /url: "#"
+- tabpanel:
+  - heading "System Messages" [level=5]
+  - link "Top Authors":
+    - /url: "#"
+  - text: Most Successful Fellas +82$
+  - link "Popular Authors":
+    - /url: "#"
+  - text: Most Successful Fellas +280$
+  - link "New Users":
+    - /url: "#"
+  - text: Most Successful Fellas +4500$
+  - link "Active Customers":
+    - /url: "#"
+  - text: Most Successful Fellas +4500$
+  - link "Bestseller Theme":
+    - /url: "#"
+  - text: Most Successful Fellas +4500$
+  - heading "Notifications" [level=5]
+  - img "Stockholm-icons / Home / Library"
+  - link "Another purpose persuade":
+    - /url: "#"
+  - text: Due in 2 Days +28%
+  - img "Stockholm-icons / Communication / Write"
+  - link "Would be to people":
+    - /url: "#"
+  - text: Due in 2 Days +50%
+  - img "Stockholm-icons / Communication / Group-chat"
+  - link "Purpose would be to persuade":
+    - /url: "#"
+  - text: Due in 2 Days -27%
+  - img "Stockholm-icons / General / Attachment2"
+  - link "The best product":
+    - /url: "#"
+  - text: Due in 2 Days +8%
+- text: Loading ... Loading ...
+- img
+- button "Open Intercom Messenger":
+  - img
+- dialog "Add Product":
+  - document:
+    - button "Close":
+      - img "close"
+    - text: Add Product Search by Product Name, SKU/UPC
+    - textbox "Search Products"
+    - text: Search by Category
+    - combobox
+    - text: Select Categories Search by Brand
+    - combobox
+    - text: Select Brands Search by Product
+    - combobox
+    - text: All Products
+    - button "Reset"
+    - button "Apply"
+    - table:
+      - rowgroup:
+        - row "Image Products caret-up caret-down Category caret-up caret-down Brand caret-up caret-down":
+          - cell:
+            - checkbox
+          - cell "Image"
+          - cell "Products caret-up caret-down":
+            - text: Products
+            - img "caret-up"
+            - img "caret-down"
+          - cell "Category caret-up caret-down":
+            - text: Category
+            - img "caret-up"
+            - img "caret-down"
+          - cell "Brand caret-up caret-down":
+            - text: Brand
+            - img "caret-up"
+            - img "caret-down"
+          - cell
+          - cell
+    - table:
+      - rowgroup:
+        - row "Product WATCHES 22656/454646 A-line Skirt-Spring-2025-1756243669906 - Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "WATCHES 22656/454646"
+          - cell "A-line Skirt-Spring-2025-1756243669906"
+          - cell "-"
+          - cell "Add":
+            - button "Add"
+        - row "Product Product-1757583376787-726 22655/FEY175758337678701 A-line Skirt-Spring-2025-1756243669906 EcoGlow Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "Product-1757583376787-726 22655/FEY175758337678701"
+          - cell "A-line Skirt-Spring-2025-1756243669906"
+          - cell "EcoGlow"
+          - cell "Add":
+            - button "Add"
+        - row "Product Product-1757583247842-74 22654/FEY175758324784201 A-line Skirt-Spring-2025-1756243669906 EcoGlow Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "Product-1757583247842-74 22654/FEY175758324784201"
+          - cell "A-line Skirt-Spring-2025-1756243669906"
+          - cell "EcoGlow"
+          - cell "Add":
+            - button "Add"
+        - row "Product Product-1757583120570-869 22653/FEY175758312057001 A-line Skirt-Spring-2025-1756243669906 EcoGlow Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "Product-1757583120570-869 22653/FEY175758312057001"
+          - cell "A-line Skirt-Spring-2025-1756243669906"
+          - cell "EcoGlow"
+          - cell "Add":
+            - button "Add"
+        - row "Product Product-1757581544035-78 22652/FEY175758154403501 A-line Skirt-Spring-2025-1756243669906 EcoGlow Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "Product-1757581544035-78 22652/FEY175758154403501"
+          - cell "A-line Skirt-Spring-2025-1756243669906"
+          - cell "EcoGlow"
+          - cell "Add":
+            - button "Add"
+        - row "Product Product-1757581381699-314 22651/FEY175758138169901 A-line Skirt-Spring-2025-1756243669906 EcoGlow Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "Product-1757581381699-314 22651/FEY175758138169901"
+          - cell "A-line Skirt-Spring-2025-1756243669906"
+          - cell "EcoGlow"
+          - cell "Add":
+            - button "Add"
+        - row "Product Product-1757581210419-115 22650/FEY175758121041901 A-line Skirt-Spring-2025-1756243669906 EcoGlow Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "Product-1757581210419-115 22650/FEY175758121041901"
+          - cell "A-line Skirt-Spring-2025-1756243669906"
+          - cell "EcoGlow"
+          - cell "Add":
+            - button "Add"
+        - row "Product Product-1757581071826-191 22649/FEY175758107182601 A-line Skirt-Spring-2025-1756243669906 EcoGlow Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "Product-1757581071826-191 22649/FEY175758107182601"
+          - cell "A-line Skirt-Spring-2025-1756243669906"
+          - cell "EcoGlow"
+          - cell "Add":
+            - button "Add"
+        - row "Product Product-1757580459786-829 22648/FEY175758045978601 A-line Skirt-Spring-2025-1756243669906 EcoGlow Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "Product-1757580459786-829 22648/FEY175758045978601"
+          - cell "A-line Skirt-Spring-2025-1756243669906"
+          - cell "EcoGlow"
+          - cell "Add":
+            - button "Add"
+        - row "Product Product-1757579966878-433 22647/FEY175757996687801 A-line Skirt-Spring-2025-1756243669906 EcoGlow Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "Product-1757579966878-433 22647/FEY175757996687801"
+          - cell "A-line Skirt-Spring-2025-1756243669906"
+          - cell "EcoGlow"
+          - cell "Add":
+            - button "Add"
+        - row "Product Product-102 22646/FEY765432101 A-line Skirt-Spring-2025-1756243669906 EcoGlow Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "Product-102 22646/FEY765432101"
+          - cell "A-line Skirt-Spring-2025-1756243669906"
+          - cell "EcoGlow"
+          - cell "Add":
+            - button "Add"
+        - row "Product ink pen-blue 22644/99431 pen Dollar ink pen Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "ink pen-blue 22644/99431"
+          - cell "pen"
+          - cell "Dollar ink pen"
+          - cell "Add":
+            - button "Add"
+        - row "Product ink pen-black 22645/99432 pen Dollar ink pen Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "ink pen-black 22645/99432"
+          - cell "pen"
+          - cell "Dollar ink pen"
+          - cell "Add":
+            - button "Add"
+        - row "Product ink pen-red 22643/2323 pen Dollar ink pen Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "ink pen-red 22643/2323"
+          - cell "pen"
+          - cell "Dollar ink pen"
+          - cell "Add":
+            - button "Add"
+        - row "Product New Product Log 22639/43444 A-line Skirt-Spring-2025-1756243669906 - Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "New Product Log 22639/43444"
+          - cell "A-line Skirt-Spring-2025-1756243669906"
+          - cell "-"
+          - cell "Add":
+            - button "Add"
+        - row "Product Koko caliburn-tranquiose 22637/41902 E-cigarrettes Koko caliburn Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "Koko caliburn-tranquiose 22637/41902"
+          - cell "E-cigarrettes"
+          - cell "Koko caliburn"
+          - cell "Add":
+            - button "Add"
+        - row "Product Koko caliburn-pink 22636/41901 E-cigarrettes Koko caliburn Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "Koko caliburn-pink 22636/41901"
+          - cell "E-cigarrettes"
+          - cell "Koko caliburn"
+          - cell "Add":
+            - button "Add"
+        - row "Product Koko caliburn-orange 22634/12344 E-cigarrettes Koko caliburn Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "Koko caliburn-orange 22634/12344"
+          - cell "E-cigarrettes"
+          - cell "Koko caliburn"
+          - cell "Add":
+            - button "Add"
+        - row "Product Wavy Spirals 2 in 1 22633/745604155694 BEVERAGES - Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "Wavy Spirals 2 in 1 22633/745604155694"
+          - cell "BEVERAGES"
+          - cell "-"
+          - cell "Add":
+            - button "Add"
+        - row "Product LUX Soap 22632/8961014264401 AUTOMOTIVE - Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "LUX Soap 22632/8961014264401"
+          - cell "AUTOMOTIVE"
+          - cell "-"
+          - cell "Add":
+            - button "Add"
+        - row "Product Peri Peri Lemon & Herb 22631/8964000844380 E-cigarrettes - Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "Peri Peri Lemon & Herb 22631/8964000844380"
+          - cell "E-cigarrettes"
+          - cell "-"
+          - cell "Add":
+            - button "Add"
+        - row "Product Peri Peri Hot Sauce 22630/8964000844359 Denim Jacket-Spring-2025 - Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "Peri Peri Hot Sauce 22630/8964000844359"
+          - cell "Denim Jacket-Spring-2025"
+          - cell "-"
+          - cell "Add":
+            - button "Add"
+        - row "Product Scotch Brite Green Kitchen Scouring Pad 22629/8964000019030 CLOTHING - Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "Scotch Brite Green Kitchen Scouring Pad 22629/8964000019030"
+          - cell "CLOTHING"
+          - cell "-"
+          - cell "Add":
+            - button "Add"
+        - row "Product Max Scrub 22628/8886950076034 BEVERAGES - Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "Max Scrub 22628/8886950076034"
+          - cell "BEVERAGES"
+          - cell "-"
+          - cell "Add":
+            - button "Add"
+        - row "Product Knorr Chilli Garlic 22627/8961014032123 Dress-Autumn-2025 - Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "Knorr Chilli Garlic 22627/8961014032123"
+          - cell "Dress-Autumn-2025"
+          - cell "-"
+          - cell "Add":
+            - button "Add"
+        - row "Product Brite Surf 22626/8886950015262 Automobiles - Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "Brite Surf 22626/8886950015262"
+          - cell "Automobiles"
+          - cell "-"
+          - cell "Add":
+            - button "Add"
+        - row "Product supremacy 22625/76876878 Brogues-Summer-2025-1756297691879 - Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "supremacy 22625/76876878"
+          - cell "Brogues-Summer-2025-1756297691879"
+          - cell "-"
+          - cell "Add":
+            - button "Add"
+        - row "Product 73248 22624/2323 A-line Skirt-Spring-2025-1756243669906 - Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "73248 22624/2323"
+          - cell "A-line Skirt-Spring-2025-1756243669906"
+          - cell "-"
+          - cell "Add":
+            - button "Add"
+        - row "Product Prime Blue Raspberry 500ml 22623/76373737 BEVERAGES prime Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "Prime Blue Raspberry 500ml 22623/76373737"
+          - cell "BEVERAGES"
+          - cell "prime"
+          - cell "Add":
+            - button "Add"
+        - row "Product geek bar 22622/546547684646 BEVERAGES - Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "geek bar 22622/546547684646"
+          - cell "BEVERAGES"
+          - cell "-"
+          - cell "Add":
+            - button "Add"
+        - row "Product ewwrwe 22621/safd BEVERAGES - Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "ewwrwe 22621/safd"
+          - cell "BEVERAGES"
+          - cell "-"
+          - cell "Add":
+            - button "Add"
+        - row "Product dunhill lite 22620/2323232323 CIGARETTES Elite Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "dunhill lite 22620/2323232323"
+          - cell "CIGARETTES"
+          - cell "Elite"
+          - cell "Add":
+            - button "Add"
+        - row "Product redmi 11 22619/242424242424 Electronics xiomi Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "redmi 11 22619/242424242424"
+          - cell "Electronics"
+          - cell "xiomi"
+          - cell "Add":
+            - button "Add"
+        - row "Product Dell XPS 15 22618/76373737 Laptops Dell Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "Dell XPS 15 22618/76373737"
+          - cell "Laptops"
+          - cell "Dell"
+          - cell "Add":
+            - button "Add"
+        - row "Product Dell XPS 15 22617/8787788787 Laptops Dell Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "Dell XPS 15 22617/8787788787"
+          - cell "Laptops"
+          - cell "Dell"
+          - cell "Add":
+            - button "Add"
+        - row "Product Toyota Corolla Hybrid 22616/92929929 Automobiles Toyota Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "Toyota Corolla Hybrid 22616/92929929"
+          - cell "Automobiles"
+          - cell "Toyota"
+          - cell "Add":
+            - button "Add"
+        - row "Product Nescafé Coffee 22615/242424242424 Dairy Products Nestlé Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "Nescafé Coffee 22615/242424242424"
+          - cell "Dairy Products"
+          - cell "Nestlé"
+          - cell "Add":
+            - button "Add"
+        - row "Product Fitbit Charge 5 22614/2323232323232322 Fitness Trackers fit o zone Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "Fitbit Charge 5 22614/2323232323232322"
+          - cell "Fitness Trackers"
+          - cell "fit o zone"
+          - cell "Add":
+            - button "Add"
+        - row "Product Olive Deliplus 22613/8402001007958 Indiana category - Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "Olive Deliplus 22613/8402001007958"
+          - cell "Indiana category"
+          - cell "-"
+          - cell "Add":
+            - button "Add"
+        - row "Product iPhone 17 Pro Max-Deep Purple 22611/62842 Electronics - Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "iPhone 17 Pro Max-Deep Purple 22611/62842"
+          - cell "Electronics"
+          - cell "-"
+          - cell "Add":
+            - button "Add"
+        - row "Product iPhone 17 Pro Max-Orange 22612/62843 Electronics - Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "iPhone 17 Pro Max-Orange 22612/62843"
+          - cell "Electronics"
+          - cell "-"
+          - cell "Add":
+            - button "Add"
+        - row "Product iPhone 17 Pro Max-Olive Green 22610/62841 Electronics - Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "iPhone 17 Pro Max-Olive Green 22610/62841"
+          - cell "Electronics"
+          - cell "-"
+          - cell "Add":
+            - button "Add"
+        - row "Product iPhone 17 Pro Max - Black 22609/16616 Electronics - Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "iPhone 17 Pro Max - Black 22609/16616"
+          - cell "Electronics"
+          - cell "-"
+          - cell "Add":
+            - button "Add"
+        - row "Product ghhh 22608/41881 AUTOMOTIVE UrbanStyle Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "ghhh 22608/41881"
+          - cell "AUTOMOTIVE"
+          - cell "UrbanStyle"
+          - cell "Add":
+            - button "Add"
+        - row "Product Product Stock 22607/1111 AUTOMOTIVE UrbanStyle Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "Product Stock 22607/1111"
+          - cell "AUTOMOTIVE"
+          - cell "UrbanStyle"
+          - cell "Add":
+            - button "Add"
+        - row "Product Loose Fit Crewneck Short Sleeve Tops Summer Casual-24624 22604/18183 E-cigarrettes Nike Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "Loose Fit Crewneck Short Sleeve Tops Summer Casual-24624 22604/18183"
+          - cell "E-cigarrettes"
+          - cell "Nike"
+          - cell "Add":
+            - button "Add"
+        - row "Product Loose Fit Crewneck Short Sleeve Tops Summer Casual-3734726 22606/18185 E-cigarrettes Nike Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "Loose Fit Crewneck Short Sleeve Tops Summer Casual-3734726 22606/18185"
+          - cell "E-cigarrettes"
+          - cell "Nike"
+          - cell "Add":
+            - button "Add"
+        - row "Product Mens wear shorts 22605/18184 E-cigarrettes Nike Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "Mens wear shorts 22605/18184"
+          - cell "E-cigarrettes"
+          - cell "Nike"
+          - cell "Add":
+            - button "Add"
+        - row "Product Loose Fit Crewneck Short Sleeve Tops Summer Casual-2525 22602/2654654543 E-cigarrettes Koko caliburn Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "Loose Fit Crewneck Short Sleeve Tops Summer Casual-2525 22602/2654654543"
+          - cell "E-cigarrettes"
+          - cell "Koko caliburn"
+          - cell "Add":
+            - button "Add"
+        - row "Product Tops shirt bring 22603/18182 E-cigarrettes Nike Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "Tops shirt bring 22603/18182"
+          - cell "E-cigarrettes"
+          - cell "Nike"
+          - cell "Add":
+            - button "Add"
+        - row "Product womens wear loose fit 22601/32532532525 E-cigarrettes Nike Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "womens wear loose fit 22601/32532532525"
+          - cell "E-cigarrettes"
+          - cell "Nike"
+          - cell "Add":
+            - button "Add"
+        - row "Product himalayas body lotion 22600/8901138508166 GROCERY/HEALTH - Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "himalayas body lotion 22600/8901138508166"
+          - cell "GROCERY/HEALTH"
+          - cell "-"
+          - cell "Add":
+            - button "Add"
+        - row "Product gggggg 22599/123456789 AUTOMOTIVE - Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "gggggg 22599/123456789"
+          - cell "AUTOMOTIVE"
+          - cell "-"
+          - cell "Add":
+            - button "Add"
+        - row "Product price check 22598/1233 AUTOMOTIVE - Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "price check 22598/1233"
+          - cell "AUTOMOTIVE"
+          - cell "-"
+          - cell "Add":
+            - button "Add"
+        - row "Product Product 1 22597/3213 AUTOMOTIVE - Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "Product 1 22597/3213"
+          - cell "AUTOMOTIVE"
+          - cell "-"
+          - cell "Add":
+            - button "Add"
+        - row "Product Hunstville product 22596/3232525235 CIGARETTES - Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "Hunstville product 22596/3232525235"
+          - cell "CIGARETTES"
+          - cell "-"
+          - cell "Add":
+            - button "Add"
+        - row "Product chakki atta-cornflour 22593/54752 GROCERY/HEALTH WIPRO Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "chakki atta-cornflour 22593/54752"
+          - cell "GROCERY/HEALTH"
+          - cell "WIPRO"
+          - cell "Add":
+            - button "Add"
+        - row "Product chakki atta-maida 22594/54753 GROCERY/HEALTH WIPRO Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "chakki atta-maida 22594/54753"
+          - cell "GROCERY/HEALTH"
+          - cell "WIPRO"
+          - cell "Add":
+            - button "Add"
+        - row "Product chakki atta-basin 22595/54754 GROCERY/HEALTH WIPRO Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "chakki atta-basin 22595/54754"
+          - cell "GROCERY/HEALTH"
+          - cell "WIPRO"
+          - cell "Add":
+            - button "Add"
+        - row "Product chakki atta-wholewheat 22592/54751 GROCERY/HEALTH WIPRO Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "chakki atta-wholewheat 22592/54751"
+          - cell "GROCERY/HEALTH"
+          - cell "WIPRO"
+          - cell "Add":
+            - button "Add"
+        - row "Product shalimar chakki atta 22591/23566 GROCERY/HEALTH WIPRO Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "shalimar chakki atta 22591/23566"
+          - cell "GROCERY/HEALTH"
+          - cell "WIPRO"
+          - cell "Add":
+            - button "Add"
+        - row "Product 7 labs 22590/1111111111111 RYO Combination Kit - Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "7 labs 22590/1111111111111"
+          - cell "RYO Combination Kit"
+          - cell "-"
+          - cell "Add":
+            - button "Add"
+        - row "Product Uma Uma Sweetheart Bodice Fit and Flare Midi Dress-12 22589/869142110 BEVERAGES Shah King Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "Uma Uma Sweetheart Bodice Fit and Flare Midi Dress-12 22589/869142110"
+          - cell "BEVERAGES"
+          - cell "Shah King"
+          - cell "Add":
+            - button "Add"
+        - row "Product [Clone] BOUGHT BY PACK 22588/5676788 AUTOMOTIVE - Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "[Clone] BOUGHT BY PACK 22588/5676788"
+          - cell "AUTOMOTIVE"
+          - cell "-"
+          - cell "Add":
+            - button "Add"
+        - row "Product BOUGHT BY PACK 22587/12334444 AUTOMOTIVE - Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "BOUGHT BY PACK 22587/12334444"
+          - cell "AUTOMOTIVE"
+          - cell "-"
+          - cell "Add":
+            - button "Add"
+        - row "Product Shume Product 22586/3123124124 BEVERAGES Rolexx Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "Shume Product 22586/3123124124"
+          - cell "BEVERAGES"
+          - cell "Rolexx"
+          - cell "Add":
+            - button "Add"
+        - row "Product PIECE product 22585/PIECEUPC AUTOMOTIVE - Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "PIECE product 22585/PIECEUPC"
+          - cell "AUTOMOTIVE"
+          - cell "-"
+          - cell "Add":
+            - button "Add"
+        - row "Product Pack Product 22584/Piece UPC piece cat - Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "Pack Product 22584/Piece UPC"
+          - cell "piece cat"
+          - cell "-"
+          - cell "Add":
+            - button "Add"
+        - row "Product Munna Test 22583/4567890123 TOBACCO - Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "Munna Test 22583/4567890123"
+          - cell "TOBACCO"
+          - cell "-"
+          - cell "Add":
+            - button "Add"
+        - row "Product Coco Cola 22582/22222 BEVERAGES - Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "Coco Cola 22582/22222"
+          - cell "BEVERAGES"
+          - cell "-"
+          - cell "Add":
+            - button "Add"
+        - row "Product Uma Uma Sweetheart Bodice Fit and Flare Midi Dress-35 22577/25711 BEVERAGES Shah King Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "Uma Uma Sweetheart Bodice Fit and Flare Midi Dress-35 22577/25711"
+          - cell "BEVERAGES"
+          - cell "Shah King"
+          - cell "Add":
+            - button "Add"
+        - row "Product Uma Uma Sweetheart Bodice Fit and Flare Midi Dress-46 22578/25712 BEVERAGES Shah King Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "Uma Uma Sweetheart Bodice Fit and Flare Midi Dress-46 22578/25712"
+          - cell "BEVERAGES"
+          - cell "Shah King"
+          - cell "Add":
+            - button "Add"
+        - row "Product Uma Uma Sweetheart Bodice Fit and Flare Midi Dress-456 22580/25714 BEVERAGES Shah King Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "Uma Uma Sweetheart Bodice Fit and Flare Midi Dress-456 22580/25714"
+          - cell "BEVERAGES"
+          - cell "Shah King"
+          - cell "Add":
+            - button "Add"
+        - row "Product Uma Uma Sweetheart Bodice Fit and Flare Midi Dress-45 22579/25713 BEVERAGES Shah King Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "Uma Uma Sweetheart Bodice Fit and Flare Midi Dress-45 22579/25713"
+          - cell "BEVERAGES"
+          - cell "Shah King"
+          - cell "Add":
+            - button "Add"
+        - row "Product Uma Uma Sweetheart Bodice Fit and Flare Midi Dress-63 22581/25725 BEVERAGES Shah King Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "Uma Uma Sweetheart Bodice Fit and Flare Midi Dress-63 22581/25725"
+          - cell "BEVERAGES"
+          - cell "Shah King"
+          - cell "Add":
+            - button "Add"
+        - row "Product Dress the Population womens Uma Uma Sweetheart Bodice Fit and Flare Midi Dress 22576/5234324234234 BEVERAGES Shah King Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "Dress the Population womens Uma Uma Sweetheart Bodice Fit and Flare Midi Dress 22576/5234324234234"
+          - cell "BEVERAGES"
+          - cell "Shah King"
+          - cell "Add":
+            - button "Add"
+        - row "Product tetly tea-natural 22574/589409828340 GROCERY/HEALTH abu basith Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "tetly tea-natural 22574/589409828340"
+          - cell "GROCERY/HEALTH"
+          - cell "abu basith"
+          - cell "Add":
+            - button "Add"
+        - row "Product tetly tea-green tetly tea-green 22575/58951 GROCERY/HEALTH abu basith Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "tetly tea-green tetly tea-green 22575/58951"
+          - cell "GROCERY/HEALTH"
+          - cell "abu basith"
+          - cell "Add":
+            - button "Add"
+        - row "Product tetly tea-natrual 22571/25431 GROCERY/HEALTH abu basith Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "tetly tea-natrual 22571/25431"
+          - cell "GROCERY/HEALTH"
+          - cell "abu basith"
+          - cell "Add":
+            - button "Add"
+        - row "Product tetly tea-green 22572/25432 GROCERY/HEALTH abu basith Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "tetly tea-green 22572/25432"
+          - cell "GROCERY/HEALTH"
+          - cell "abu basith"
+          - cell "Add":
+            - button "Add"
+        - row "Product tetly tea-classic 22573/25433 GROCERY/HEALTH abu basith Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "tetly tea-classic 22573/25433"
+          - cell "GROCERY/HEALTH"
+          - cell "abu basith"
+          - cell "Add":
+            - button "Add"
+        - row "Product tetly tea 22570/65989 GROCERY/HEALTH abu basith Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "tetly tea 22570/65989"
+          - cell "GROCERY/HEALTH"
+          - cell "abu basith"
+          - cell "Add":
+            - button "Add"
+        - row "Product quicker oats-strabeery 22569/28560 GROCERY/HEALTH abu basith Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "quicker oats-strabeery 22569/28560"
+          - cell "GROCERY/HEALTH"
+          - cell "abu basith"
+          - cell "Add":
+            - button "Add"
+        - row "Product quicker oats-wheat 22565/38761 GROCERY/HEALTH abu basith Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "quicker oats-wheat 22565/38761"
+          - cell "GROCERY/HEALTH"
+          - cell "abu basith"
+          - cell "Add":
+            - button "Add"
+        - row "Product quicker oats-classic 22566/38762 GROCERY/HEALTH abu basith Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "quicker oats-classic 22566/38762"
+          - cell "GROCERY/HEALTH"
+          - cell "abu basith"
+          - cell "Add":
+            - button "Add"
+        - row "Product quicker oats-vanilla 22567/38763 GROCERY/HEALTH abu basith Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "quicker oats-vanilla 22567/38763"
+          - cell "GROCERY/HEALTH"
+          - cell "abu basith"
+          - cell "Add":
+            - button "Add"
+        - row "Product quicker oats-dry friuts 22568/38764 GROCERY/HEALTH abu basith Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "quicker oats-dry friuts 22568/38764"
+          - cell "GROCERY/HEALTH"
+          - cell "abu basith"
+          - cell "Add":
+            - button "Add"
+        - row "Product quicker oats 22564/021563 GROCERY/HEALTH abu basith Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "quicker oats 22564/021563"
+          - cell "GROCERY/HEALTH"
+          - cell "abu basith"
+          - cell "Add":
+            - button "Add"
+        - row "Product blackofff 22563/764488 CIGARETTES - Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "blackofff 22563/764488"
+          - cell "CIGARETTES"
+          - cell "-"
+          - cell "Add":
+            - button "Add"
+        - row "Product sheshass 22562/5648 CIGARETTES - Add":
+          - cell:
+            - checkbox
+          - cell "Product":
+            - img "Product"
+          - cell "sheshass 22562/5648"
+          - cell "CIGARETTES"
+          - cell "-"
+          - cell "Add":
+            - button "Add"
+    - button "right":
+      - img "right"
+    - heading "Your Cart" [level=3]
+    - table:
+      - rowgroup:
+        - row "Sr.No Image Products":
+          - cell "Sr.No"
+          - cell "Image"
+          - cell "Products"
+          - cell
+          - cell
+    - table:
+      - rowgroup:
+        - row "No Data":
+          - cell "No Data":
+            - img
+            - paragraph: No Data
+    - button "Cancel"
+    - button "Add Products"
+```
