@@ -41,9 +41,12 @@ test.describe.serial('Kommerce HUB Dashboard', () => {
     const today = new Date().getDate().toString();
     await page.getByRole('textbox', { name: 'Select date' }).click();
     await page.getByText(today, { exact: true }).click();
+    await page.waitForTimeout(2000);
     await page.getByRole('textbox', { name: 'Enter Supplier Invoice No' }).click();
     await page.getByRole('textbox', { name: 'Enter Supplier Invoice No' }).fill('GD34WE10');
+    await page.waitForTimeout(2000);
     await page.getByRole('button', { name: 'Create Receive' }).click();
+    await page.waitForTimeout(2000);
     await page.getByRole('button', { name: 'Proceed' }).click();
   });
   
