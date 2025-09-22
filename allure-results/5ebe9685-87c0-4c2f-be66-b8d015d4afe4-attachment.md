@@ -1,0 +1,265 @@
+# Page snapshot
+
+```yaml
+- img "scan"
+- button "Connect to khub scanner"
+- link "Logo":
+  - /url: /
+  - img "Logo"
+- img
+- menu:
+  - menuitem "home Dashboard":
+    - img "home"
+    - link "Dashboard":
+      - /url: /dashboard
+  - menuitem "shop Product Catalog":
+    - button "shop Product Catalog":
+      - img "shop"
+      - text: Product Catalog
+  - menuitem "reconciliation Inventory":
+    - button "reconciliation Inventory" [expanded]:
+      - img "reconciliation"
+      - text: Inventory
+      - menu:
+        - menuitem "• Purchase Orders":
+          - link "• Purchase Orders":
+            - /url: /inventory/purchase/orders
+        - menuitem "• Purchase Receive":
+          - link "• Purchase Receive":
+            - /url: /inventory/purchase/receives
+        - menuitem "• Purchase Returns":
+          - link "• Purchase Returns":
+            - /url: /inventory/purchase/returns
+        - menuitem "• Stocks":
+          - link "• Stocks":
+            - /url: /inventory/stock
+        - menuitem "• Stock Alerts":
+          - link "• Stock Alerts":
+            - /url: /inventory/stock-alerts
+        - menuitem "• Stock Transfers":
+          - link "• Stock Transfers":
+            - /url: /inventory/transfer/stocks
+        - menuitem "• Store Channels":
+          - link "• Store Channels":
+            - /url: /inventory/sales-stock-channels
+        - menuitem "• Suppliers":
+          - link "• Suppliers":
+            - /url: /inventory/suppliers
+        - menuitem "• Supplier Payments":
+          - link "• Supplier Payments":
+            - /url: /inventory/supplier-payment-history
+  - menuitem "shopping Sale":
+    - button "shopping Sale":
+      - img "shopping"
+      - text: Sale
+  - menuitem "rocket Marketing":
+    - button "rocket Marketing":
+      - img "rocket"
+      - text: Marketing
+  - menuitem "tablet Apps":
+    - img "tablet"
+    - link "Apps":
+      - /url: /apps
+  - menuitem "bar-chart Reporting":
+    - button "bar-chart Reporting":
+      - img "bar-chart"
+      - text: Reporting
+  - menuitem "highlight Themes":
+    - button "highlight Themes":
+      - img "highlight"
+      - text: Themes
+  - menuitem "audit Manage Custom Pages":
+    - button "audit Manage Custom Pages":
+      - img "audit"
+      - text: Manage Custom Pages
+  - menuitem "question Queries":
+    - img "question"
+    - link "Queries":
+      - /url: /queries/list
+  - menuitem "team Users":
+    - button "team Users":
+      - img "team"
+      - text: Users
+- list:
+  - listitem:
+    - link:
+      - /url: /dashboard
+      - img
+  - listitem: ">"
+  - listitem:
+    - link "Inventory":
+      - /url: /inventory
+  - listitem: ">"
+  - listitem:
+    - link "Stock Transfers":
+      - /url: /
+- heading "Stock Transfers" [level=1]
+- button "Quick Create":
+  - img "plus"
+- img "user-switch"
+- img
+- superscript:
+  - paragraph: "0"
+  - paragraph: "1"
+  - paragraph: "2"
+  - paragraph: "3"
+  - paragraph: "4"
+  - paragraph: "5"
+  - paragraph: "6"
+  - paragraph: "7"
+  - paragraph: "8"
+  - paragraph: "9"
+  - paragraph: "0"
+  - paragraph: "1"
+  - paragraph: "2"
+  - paragraph: "3"
+  - paragraph: "4"
+  - paragraph: "5"
+  - paragraph: "6"
+  - paragraph: "7"
+  - paragraph: "8"
+  - paragraph: "9"
+  - paragraph: "0"
+  - paragraph: "1"
+  - paragraph: "2"
+  - paragraph: "3"
+  - paragraph: "4"
+  - paragraph: "5"
+  - paragraph: "6"
+  - paragraph: "7"
+  - paragraph: "8"
+  - paragraph: "9"
+- img "Logo"
+- text: natalia natali2033dummy1@hotmail.es Stock Transfer
+- button "Back"
+- text: Transfer Details Select Products Select Delivery Date*
+- textbox "Select date"
+- img "calendar"
+- text: From
+- img "Stockholm-icons / General / Search"
+- textbox "Search Warehouse or Storefront"
+- combobox
+- text: Please select stock status To
+- img "Stockholm-icons / General / Search"
+- textbox "Search Warehouse or Storefront"
+- combobox
+- text: Please select stock status
+- button "Back" [disabled]
+- button "Next"
+- text: 
+- heading "Stock Transfer Cart" [level=4]
+- text: 0 Nothing to Transfer! Total Products 0
+- tablist:
+  - listitem:
+    - tab "Audit Logs" [selected]
+  - listitem:
+    - tab "Notifications"
+  - listitem:
+    - tab "Settings"
+- link "":
+  - /url: "#"
+- tabpanel:
+  - heading "System Messages" [level=5]
+  - link "Top Authors":
+    - /url: "#"
+  - text: Most Successful Fellas +82$
+  - link "Popular Authors":
+    - /url: "#"
+  - text: Most Successful Fellas +280$
+  - link "New Users":
+    - /url: "#"
+  - text: Most Successful Fellas +4500$
+  - link "Active Customers":
+    - /url: "#"
+  - text: Most Successful Fellas +4500$
+  - link "Bestseller Theme":
+    - /url: "#"
+  - text: Most Successful Fellas +4500$
+  - heading "Notifications" [level=5]
+  - img "Stockholm-icons / Home / Library"
+  - link "Another purpose persuade":
+    - /url: "#"
+  - text: Due in 2 Days +28%
+  - img "Stockholm-icons / Communication / Write"
+  - link "Would be to people":
+    - /url: "#"
+  - text: Due in 2 Days +50%
+  - img "Stockholm-icons / Communication / Group-chat"
+  - link "Purpose would be to persuade":
+    - /url: "#"
+  - text: Due in 2 Days -27%
+  - img "Stockholm-icons / General / Attachment2"
+  - link "The best product":
+    - /url: "#"
+  - text: Due in 2 Days +8%
+- text: Loading ...
+- img
+- button "Open Intercom Messenger":
+  - img
+- button
+- button
+- button "Sep"
+- button "2025"
+- button
+- button
+- table:
+  - rowgroup:
+    - row "Su Mo Tu We Th Fr Sa":
+      - cell "Su"
+      - cell "Mo"
+      - cell "Tu"
+      - cell "We"
+      - cell "Th"
+      - cell "Fr"
+      - cell "Sa"
+  - rowgroup:
+    - row "31 1 2 3 4 5 6":
+      - cell "31"
+      - cell "1"
+      - cell "2"
+      - cell "3"
+      - cell "4"
+      - cell "5"
+      - cell "6"
+    - row "7 8 9 10 11 12 13":
+      - cell "7"
+      - cell "8"
+      - cell "9"
+      - cell "10"
+      - cell "11"
+      - cell "12"
+      - cell "13"
+    - row "14 15 16 17 18 19 20":
+      - cell "14"
+      - cell "15"
+      - cell "16"
+      - cell "17"
+      - cell "18"
+      - cell "19"
+      - cell "20"
+    - row "21 22 23 24 25 26 27":
+      - cell "21"
+      - cell "22"
+      - cell "23"
+      - cell "24"
+      - cell "25"
+      - cell "26"
+      - cell "27"
+    - row "28 29 30 1 2 3 4":
+      - cell "28"
+      - cell "29"
+      - cell "30"
+      - cell "1"
+      - cell "2"
+      - cell "3"
+      - cell "4"
+    - row "5 6 7 8 9 10 11":
+      - cell "5"
+      - cell "6"
+      - cell "7"
+      - cell "8"
+      - cell "9"
+      - cell "10"
+      - cell "11"
+- text: Today
+```

@@ -1,0 +1,532 @@
+# Page snapshot
+
+```yaml
+- img "scan"
+- button "Connect to khub scanner"
+- link "Logo":
+  - /url: /
+  - img "Logo"
+- img
+- menu:
+  - menuitem "home Dashboard":
+    - img "home"
+    - link "Dashboard":
+      - /url: /dashboard
+  - menuitem "shop Product Catalog":
+    - button "shop Product Catalog":
+      - img "shop"
+      - text: Product Catalog
+  - menuitem "reconciliation Inventory":
+    - button "reconciliation Inventory" [expanded]:
+      - img "reconciliation"
+      - text: Inventory
+      - menu:
+        - menuitem "• Purchase Orders":
+          - link "• Purchase Orders":
+            - /url: /inventory/purchase/orders
+        - menuitem "• Purchase Receive":
+          - link "• Purchase Receive":
+            - /url: /inventory/purchase/receives
+        - menuitem "• Purchase Returns":
+          - link "• Purchase Returns":
+            - /url: /inventory/purchase/returns
+        - menuitem "• Stocks":
+          - link "• Stocks":
+            - /url: /inventory/stock
+        - menuitem "• Stock Alerts":
+          - link "• Stock Alerts":
+            - /url: /inventory/stock-alerts
+        - menuitem "• Stock Transfers":
+          - link "• Stock Transfers":
+            - /url: /inventory/transfer/stocks
+        - menuitem "• Store Channels":
+          - link "• Store Channels":
+            - /url: /inventory/sales-stock-channels
+        - menuitem "• Suppliers":
+          - link "• Suppliers":
+            - /url: /inventory/suppliers
+        - menuitem "• Supplier Payments":
+          - link "• Supplier Payments":
+            - /url: /inventory/supplier-payment-history
+  - menuitem "shopping Sale":
+    - button "shopping Sale":
+      - img "shopping"
+      - text: Sale
+  - menuitem "rocket Marketing":
+    - button "rocket Marketing":
+      - img "rocket"
+      - text: Marketing
+  - menuitem "tablet Apps":
+    - img "tablet"
+    - link "Apps":
+      - /url: /apps
+  - menuitem "bar-chart Reporting":
+    - button "bar-chart Reporting":
+      - img "bar-chart"
+      - text: Reporting
+  - menuitem "highlight Themes":
+    - button "highlight Themes":
+      - img "highlight"
+      - text: Themes
+  - menuitem "audit Manage Custom Pages":
+    - button "audit Manage Custom Pages":
+      - img "audit"
+      - text: Manage Custom Pages
+  - menuitem "question Queries":
+    - img "question"
+    - link "Queries":
+      - /url: /queries/list
+  - menuitem "team Users":
+    - button "team Users":
+      - img "team"
+      - text: Users
+- list:
+  - listitem:
+    - link:
+      - /url: /dashboard
+      - img
+  - listitem: ">"
+  - listitem:
+    - link "Inventory":
+      - /url: /inventory
+  - listitem: ">"
+  - listitem:
+    - link "Stocks":
+      - /url: /
+- heading "Stocks" [level=1]
+- button "Quick Create":
+  - img "plus"
+- img "user-switch"
+- img
+- superscript:
+  - paragraph: "0"
+  - paragraph: "1"
+  - paragraph: "2"
+  - paragraph: "3"
+  - paragraph: "4"
+  - paragraph: "5"
+  - paragraph: "6"
+  - paragraph: "7"
+  - paragraph: "8"
+  - paragraph: "9"
+  - paragraph: "0"
+  - paragraph: "1"
+  - paragraph: "2"
+  - paragraph: "3"
+  - paragraph: "4"
+  - paragraph: "5"
+  - paragraph: "6"
+  - paragraph: "7"
+  - paragraph: "8"
+  - paragraph: "9"
+  - paragraph: "0"
+  - paragraph: "1"
+  - paragraph: "2"
+  - paragraph: "3"
+  - paragraph: "4"
+  - paragraph: "5"
+  - paragraph: "6"
+  - paragraph: "7"
+  - paragraph: "8"
+  - paragraph: "9"
+- img "Logo"
+- text: natalia natali2033dummy1@hotmail.es Search by Product Name, SKU/UPC
+- textbox "Search"
+- text: Search by Product Status Active
+- combobox
+- button "Advance Filters":
+  - img
+  - text: Advance Filters
+- button "Bulk Edit Stock"
+- button "Columns":
+  - img
+  - text: Columns
+- button
+- table:
+  - rowgroup:
+    - row "Image SKU/UPC Product Name caret-up caret-down Available QTY On Hold Back Order QTY Base Cost Prices Net Cost Prices Coming Soon QTY Total Quantity Total Cost Actions":
+      - cell:
+        - checkbox
+      - cell "Image"
+      - cell "SKU/UPC"
+      - cell "Product Name caret-up caret-down":
+        - text: Product Name
+        - img "caret-up"
+        - img "caret-down"
+      - cell "Available QTY"
+      - cell "On Hold"
+      - cell "Back Order QTY"
+      - cell "Base Cost Prices"
+      - cell "Net Cost Prices"
+      - cell "Coming Soon QTY"
+      - cell "Total Quantity"
+      - cell "Total Cost"
+      - cell "Actions"
+      - cell
+- table:
+  - rowgroup:
+    - row "1007 / 818892016401 GOOD TIMES POUCH TUTTI FRUTTI 3/99C 15CT 151 1 0 7.25 7.25 0 152 1102.00 ":
+      - cell:
+        - checkbox
+      - cell
+      - cell "1007 / 818892016401"
+      - cell "GOOD TIMES POUCH TUTTI FRUTTI 3/99C 15CT"
+      - cell "151"
+      - cell "1"
+      - cell "0"
+      - cell "7.25"
+      - cell "7.25"
+      - cell "0"
+      - cell "152"
+      - cell "1102.00"
+      - cell ""
+    - row "1008 / 025900294205 SWISHER 2F99 BLACK SWEETS 30CT 555 0 0 17.29 17.29 0 555 9595.95 ":
+      - cell:
+        - checkbox
+      - cell
+      - cell "1008 / 025900294205"
+      - cell "SWISHER 2F99 BLACK SWEETS 30CT"
+      - cell "555"
+      - cell "0"
+      - cell "0"
+      - cell "17.29"
+      - cell "17.29"
+      - cell "0"
+      - cell "555"
+      - cell "9595.95"
+      - cell ""
+    - row "1011 / 025900294250 SWISHER 2F99 STRAWBERRY 30CT 777 0 0 17.29 17.29 0 777 13434.33 ":
+      - cell:
+        - checkbox
+      - cell
+      - cell "1011 / 025900294250"
+      - cell "SWISHER 2F99 STRAWBERRY 30CT"
+      - cell "777"
+      - cell "0"
+      - cell "0"
+      - cell "17.29"
+      - cell "17.29"
+      - cell "0"
+      - cell "777"
+      - cell "13434.33"
+      - cell ""
+    - row "1025 / 784762071606 ZIG ZAG WRP BLUE JUJU/BLUE BERRY 2/99PK 25CT 766 14 0 13.00 13.00 75 780 10140.00 ":
+      - cell:
+        - checkbox
+      - cell
+      - cell "1025 / 784762071606"
+      - cell "ZIG ZAG WRP BLUE JUJU/BLUE BERRY 2/99PK 25CT"
+      - cell "766"
+      - cell "14"
+      - cell "0"
+      - cell "13.00"
+      - cell "13.00"
+      - cell "75"
+      - cell "780"
+      - cell "10140.00"
+      - cell ""
+    - row "1026 / 784762071637 Zig Zag Wrp Cherry Rush 2/99Pk 25Ct 776 8 0 13.00 13.00 100 784 10192.00 ":
+      - cell:
+        - checkbox
+      - cell
+      - cell "1026 / 784762071637"
+      - cell "Zig Zag Wrp Cherry Rush 2/99Pk 25Ct"
+      - cell "776"
+      - cell "8"
+      - cell "0"
+      - cell "13.00"
+      - cell "13.00"
+      - cell "100"
+      - cell "784"
+      - cell "10192.00"
+      - cell ""
+    - row "10017 / 185092800520 CHEROKEE 8OZ LIGHT PIPE TOBACCO BAG 777 0 0 5.42 5.42 0 777 4211.34 ":
+      - cell:
+        - checkbox
+      - cell
+      - cell "10017 / 185092800520"
+      - cell "CHEROKEE 8OZ LIGHT PIPE TOBACCO BAG"
+      - cell "777"
+      - cell "0"
+      - cell "0"
+      - cell "5.42"
+      - cell "5.42"
+      - cell "0"
+      - cell "777"
+      - cell "4211.34"
+      - cell ""
+    - row "10018 / 719410730123 5 HR EX STR SOUR APPLE 12CT 699 9 0 21.36 21.36 0 708 15122.88 ":
+      - cell:
+        - checkbox
+      - cell
+      - cell "10018 / 719410730123"
+      - cell "5 HR EX STR SOUR APPLE 12CT"
+      - cell "699"
+      - cell "9"
+      - cell "0"
+      - cell "21.36"
+      - cell "21.36"
+      - cell "0"
+      - cell "708"
+      - cell "15122.88"
+      - cell ""
+    - row "10032 / 077170123822 TUBECUT $2.49 100MM GOLD 200/CT SLEEVE 777 0 0 8.25 8.25 0 777 6410.25 ":
+      - cell:
+        - checkbox
+      - cell
+      - cell "10032 / 077170123822"
+      - cell "TUBECUT $2.49 100MM GOLD 200/CT SLEEVE"
+      - cell "777"
+      - cell "0"
+      - cell "0"
+      - cell "8.25"
+      - cell "8.25"
+      - cell "0"
+      - cell "777"
+      - cell "6410.25"
+      - cell ""
+    - row "10035 / 814859013179 SCALES AWS BLADE 650-0.1G 1CT 0 0 0 4.76 4.76 0 0 0.00 ":
+      - cell:
+        - checkbox
+      - cell
+      - cell "10035 / 814859013179"
+      - cell "SCALES AWS BLADE 650-0.1G 1CT"
+      - cell "0"
+      - cell "0"
+      - cell "0"
+      - cell "4.76"
+      - cell "4.76"
+      - cell "0"
+      - cell "0"
+      - cell "0.00"
+      - cell ""
+    - row "10049 / 844504008601 38 CIGAR 3PK CHERRY 20CT 0 0 0 4.00 4.00 0 0 0.00 ":
+      - cell:
+        - checkbox
+      - cell
+      - cell "10049 / 844504008601"
+      - cell "38 CIGAR 3PK CHERRY 20CT"
+      - cell "0"
+      - cell "0"
+      - cell "0"
+      - cell "4.00"
+      - cell "4.00"
+      - cell "0"
+      - cell "0"
+      - cell "0.00"
+      - cell ""
+    - row "10050 / 844504008618 38 CIGAR 3PK VANILLA 20CT 0 0 0 4.00 4.00 0 0 0.00 ":
+      - cell:
+        - checkbox
+      - cell
+      - cell "10050 / 844504008618"
+      - cell "38 CIGAR 3PK VANILLA 20CT"
+      - cell "0"
+      - cell "0"
+      - cell "0"
+      - cell "4.00"
+      - cell "4.00"
+      - cell "0"
+      - cell "0"
+      - cell "0.00"
+      - cell ""
+    - row "10067 / 6291108166857 AL FAKHER 250G STRAWBERRY 1CT 0 0 0 6.62 6.62 0 0 0.00 ":
+      - cell:
+        - checkbox
+      - cell
+      - cell "10067 / 6291108166857"
+      - cell "AL FAKHER 250G STRAWBERRY 1CT"
+      - cell "0"
+      - cell "0"
+      - cell "0"
+      - cell "6.62"
+      - cell "6.62"
+      - cell "0"
+      - cell "0"
+      - cell "0.00"
+      - cell ""
+    - row "10068 / 6291108160510 Al Fakher 250G Spearmint Gum With Mint 1Ct 16 2 0 9.20 9.20 0 18 165.60 ":
+      - cell:
+        - checkbox
+      - cell
+      - cell "10068 / 6291108160510"
+      - cell "Al Fakher 250G Spearmint Gum With Mint 1Ct"
+      - cell "16"
+      - cell "2"
+      - cell "0"
+      - cell "9.20"
+      - cell "9.20"
+      - cell "0"
+      - cell "18"
+      - cell "165.60"
+      - cell ""
+    - row "10082 / 031700233061 GAME 2/99 WATERMELON 30CT 0 0 0 17.20 17.20 0 0 0.00 ":
+      - cell:
+        - checkbox
+      - cell
+      - cell "10082 / 031700233061"
+      - cell "GAME 2/99 WATERMELON 30CT"
+      - cell "0"
+      - cell "0"
+      - cell "0"
+      - cell "17.20"
+      - cell "17.20"
+      - cell "0"
+      - cell "0"
+      - cell "0.00"
+      - cell ""
+    - row "10085 / 077170771795 JOB 1.0 24CT/BOX 0 2 1 36.95 36.95 0 2 73.90 ":
+      - cell:
+        - checkbox
+      - cell
+      - cell "10085 / 077170771795"
+      - cell "JOB 1.0 24CT/BOX"
+      - cell "0"
+      - cell "2"
+      - cell "1"
+      - cell "36.95"
+      - cell "36.95"
+      - cell "0"
+      - cell "2"
+      - cell "73.90"
+      - cell ""
+    - row "10099 / 6253345300777 MAZAYA 250G ORANGE WITH MINT 1CT 0 0 0 4.46 4.46 0 0 0.00 ":
+      - cell:
+        - checkbox
+      - cell
+      - cell "10099 / 6253345300777"
+      - cell "MAZAYA 250G ORANGE WITH MINT 1CT"
+      - cell "0"
+      - cell "0"
+      - cell "0"
+      - cell "4.46"
+      - cell "4.46"
+      - cell "0"
+      - cell "0"
+      - cell "0.00"
+      - cell ""
+    - row "10100 / 0 Duracell C Usa - 2Pk 8Ct 700 0 0 17.70 17.70 0 700 12390.00 ":
+      - cell:
+        - checkbox
+      - cell
+      - cell "10100 / 0"
+      - cell "Duracell C Usa - 2Pk 8Ct"
+      - cell "700"
+      - cell "0"
+      - cell "0"
+      - cell "17.70"
+      - cell "17.70"
+      - cell "0"
+      - cell "700"
+      - cell "12390.00"
+      - cell ""
+    - row "10117 / 0 MAZAYA HOOKAH DISPOSABLE MEDIUM RED 1CT 0 0 0 12.00 12.00 0 0 0.00 ":
+      - cell:
+        - checkbox
+      - cell
+      - cell "10117 / 0"
+      - cell "MAZAYA HOOKAH DISPOSABLE MEDIUM RED 1CT"
+      - cell "0"
+      - cell "0"
+      - cell "0"
+      - cell "12.00"
+      - cell "12.00"
+      - cell "0"
+      - cell "0"
+      - cell "0.00"
+      - cell ""
+    - row "10118 / 818892013967 4K FRENCH VANILLA 4/99C 60CT 0 0 0 8.18 8.18 0 0 0.00 ":
+      - cell:
+        - checkbox
+      - cell
+      - cell "10118 / 818892013967"
+      - cell "4K FRENCH VANILLA 4/99C 60CT"
+      - cell "0"
+      - cell "0"
+      - cell "0"
+      - cell "8.18"
+      - cell "8.18"
+      - cell "0"
+      - cell "0"
+      - cell "0.00"
+      - cell ""
+    - row "10132 / 194040000882 KANGVAPE ONEE STICK 1900 BLUE RAZZ 10CT 0 0 0 46.00 46.00 0 0 0.00 ":
+      - cell:
+        - checkbox
+      - cell
+      - cell "10132 / 194040000882"
+      - cell "KANGVAPE ONEE STICK 1900 BLUE RAZZ 10CT"
+      - cell "0"
+      - cell "0"
+      - cell "0"
+      - cell "46.00"
+      - cell "46.00"
+      - cell "0"
+      - cell "0"
+      - cell "0.00"
+      - cell ""
+- list:
+  - listitem "Previous Page":
+    - button "left" [disabled]:
+      - img "left"
+  - listitem "1"
+  - listitem "2"
+  - listitem "3"
+  - listitem "4"
+  - listitem "5"
+  - listitem "Next 5 Pages"
+  - listitem "638"
+  - listitem "Next Page":
+    - button "right":
+      - img "right"
+  - listitem:
+    - combobox "Page Size"
+    - text: 20 / page
+- tablist:
+  - listitem:
+    - tab "Audit Logs" [selected]
+  - listitem:
+    - tab "Notifications"
+  - listitem:
+    - tab "Settings"
+- link "":
+  - /url: "#"
+- tabpanel:
+  - heading "System Messages" [level=5]
+  - link "Top Authors":
+    - /url: "#"
+  - text: Most Successful Fellas +82$
+  - link "Popular Authors":
+    - /url: "#"
+  - text: Most Successful Fellas +280$
+  - link "New Users":
+    - /url: "#"
+  - text: Most Successful Fellas +4500$
+  - link "Active Customers":
+    - /url: "#"
+  - text: Most Successful Fellas +4500$
+  - link "Bestseller Theme":
+    - /url: "#"
+  - text: Most Successful Fellas +4500$
+  - heading "Notifications" [level=5]
+  - img "Stockholm-icons / Home / Library"
+  - link "Another purpose persuade":
+    - /url: "#"
+  - text: Due in 2 Days +28%
+  - img "Stockholm-icons / Communication / Write"
+  - link "Would be to people":
+    - /url: "#"
+  - text: Due in 2 Days +50%
+  - img "Stockholm-icons / Communication / Group-chat"
+  - link "Purpose would be to persuade":
+    - /url: "#"
+  - text: Due in 2 Days -27%
+  - img "Stockholm-icons / General / Attachment2"
+  - link "The best product":
+    - /url: "#"
+  - text: Due in 2 Days +8%
+- text: Loading ... Loading ...
+- img
+- button "Open Intercom Messenger":
+  - img
+```
