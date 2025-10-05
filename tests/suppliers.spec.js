@@ -14,7 +14,7 @@ test.describe.serial('Kommerce HUB Dashboard', () => {
   const email2 = `test2_${timestamp}@gmail.com`;
   const email3 = `test3_${timestamp}@gmail.com`;
 
-  const BASE_URL = 'https://preprod.ikhub.biz/auth/login';
+  const BASE_URL = 'https://stage.ikhub.biz/auth/login';
 
   test.beforeAll(async () => {
     browser = await chromium.launch({headless: false,args: ['--start-maximized']});
@@ -24,7 +24,7 @@ test.describe.serial('Kommerce HUB Dashboard', () => {
 
   test('User should be able to login with valid credentials', async () => {
     await page.goto(BASE_URL, { timeout: 120000 });
-    await page.getByPlaceholder('Email or User Name').fill('preprod');
+    await page.getByPlaceholder('Email or User Name').fill('owner');
     await page.getByPlaceholder('Password').fill('Password@123');
     await page.getByRole('button', { name: 'Sign In' }).click();
   });
@@ -67,11 +67,7 @@ test.describe.serial('Kommerce HUB Dashboard', () => {
     await page.waitForTimeout(2000);
     await page.getByText('BALTIMORE CITY').click();
     await page.waitForTimeout(2000);
-
-    await page.locator("xpath=//input[@id='rc_select_3']").click();
-    await page.waitForTimeout(2000);
-    await page.getByText('Accident').click();
-
+    await page.getByRole('button', {name: 'save'}).click();
   });
 
   test.afterAll(async () => {

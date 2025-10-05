@@ -21,9 +21,8 @@
   - /url: /auth/registration
 - heading "Login Account" [level=3]
 - paragraph: Enter your username and password
-- alert: The login detail is incorrect
-- textbox "Email or User Name": preprod
-- textbox "Password": Password@123
+- textbox "Email or User Name"
+- textbox "Password"
 - img "eye-invisible"
 - link "Forgot Password?":
   - /url: /auth/forgot-password
